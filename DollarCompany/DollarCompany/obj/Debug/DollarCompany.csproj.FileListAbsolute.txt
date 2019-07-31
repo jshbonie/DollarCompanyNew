@@ -1,0 +1,10 @@
+C:\Users\sarji\Desktop\JoshProg\DollarCompany\DollarCompany\bin\Debug\DollarCompany.exe.config
+C:\Users\sarji\Desktop\JoshProg\DollarCompany\DollarCompany\bin\Debug\DollarCompany.exe
+C:\Users\sarji\Desktop\JoshProg\DollarCompany\DollarCompany\bin\Debug\DollarCompany.pdb
+C:\Users\sarji\Desktop\JoshProg\DollarCompany\DollarCompany\obj\Debug\DollarCompany.csprojAssemblyReference.cache
+C:\Users\sarji\Desktop\JoshProg\DollarCompany\DollarCompany\obj\Debug\DollarCompany.Properties.Resources.resources
+C:\Users\sarji\Desktop\JoshProg\DollarCompany\DollarCompany\obj\Debug\DollarCompany.SplashScreen.resources
+C:\Users\sarji\Desktop\JoshProg\DollarCompany\DollarCompany\obj\Debug\DollarCompany.csproj.GenerateResource.cache
+C:\Users\sarji\Desktop\JoshProg\DollarCompany\DollarCompany\obj\Debug\DollarCompany.csproj.CoreCompileInputs.cache
+C:\Users\sarji\Desktop\JoshProg\DollarCompany\DollarCompany\obj\Debug\DollarCompany.exe
+C:\Users\sarji\Desktop\JoshProg\DollarCompany\DollarCompany\obj\Debug\DollarCompany.pdb
