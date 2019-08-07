@@ -8,3 +8,29 @@ C:\Users\sarji\Desktop\JoshProg\DollarCompany\DollarCompany\obj\Debug\DollarComp
 C:\Users\sarji\Desktop\JoshProg\DollarCompany\DollarCompany\obj\Debug\DollarCompany.csproj.CoreCompileInputs.cache
 C:\Users\sarji\Desktop\JoshProg\DollarCompany\DollarCompany\obj\Debug\DollarCompany.exe
 C:\Users\sarji\Desktop\JoshProg\DollarCompany\DollarCompany\obj\Debug\DollarCompany.pdb
+C:\Users\301009614\Desktop\New folder\DollarCompany\DollarCompany\bin\Debug\DollarCompany.exe.config
+C:\Users\301009614\Desktop\New folder\DollarCompany\DollarCompany\bin\Debug\DollarCompany.exe
+C:\Users\301009614\Desktop\New folder\DollarCompany\DollarCompany\bin\Debug\DollarCompany.pdb
+C:\Users\301009614\Desktop\New folder\DollarCompany\DollarCompany\obj\Debug\DollarCompany.csprojAssemblyReference.cache
+C:\Users\301009614\Desktop\New folder\DollarCompany\DollarCompany\obj\Debug\DollarCompany.Properties.Resources.resources
+C:\Users\301009614\Desktop\New folder\DollarCompany\DollarCompany\obj\Debug\DollarCompany.SelectForm.resources
+C:\Users\301009614\Desktop\New folder\DollarCompany\DollarCompany\obj\Debug\DollarCompany.SplashScreen.resources
+C:\Users\301009614\Desktop\New folder\DollarCompany\DollarCompany\obj\Debug\DollarCompany.csproj.GenerateResource.cache
+C:\Users\301009614\Desktop\New folder\DollarCompany\DollarCompany\obj\Debug\DollarCompany.csproj.CoreCompileInputs.cache
+C:\Users\301009614\Desktop\New folder\DollarCompany\DollarCompany\obj\Debug\DollarCompany.exe
+C:\Users\301009614\Desktop\New folder\DollarCompany\DollarCompany\obj\Debug\DollarCompany.pdb
+C:\Users\301009614\Desktop\New folder\DollarCompany\DollarCompany\obj\Debug\DollarCompany.AboutForm.resources
+C:\Users\301009614\Desktop\New folder\DollarCompany\DollarCompany\obj\Debug\DollarCompany.ProductInfoForm.resources
+F:\New folder\DollarCompany\DollarCompany\bin\Debug\DollarCompany.exe.config
+F:\New folder\DollarCompany\DollarCompany\bin\Debug\DollarCompany.exe
+F:\New folder\DollarCompany\DollarCompany\bin\Debug\DollarCompany.pdb
+F:\New folder\DollarCompany\DollarCompany\obj\Debug\DollarCompany.csprojAssemblyReference.cache
+F:\New folder\DollarCompany\DollarCompany\obj\Debug\DollarCompany.AboutForm.resources
+F:\New folder\DollarCompany\DollarCompany\obj\Debug\DollarCompany.ProductInfoForm.resources
+F:\New folder\DollarCompany\DollarCompany\obj\Debug\DollarCompany.Properties.Resources.resources
+F:\New folder\DollarCompany\DollarCompany\obj\Debug\DollarCompany.SelectForm.resources
+F:\New folder\DollarCompany\DollarCompany\obj\Debug\DollarCompany.SplashScreen.resources
+F:\New folder\DollarCompany\DollarCompany\obj\Debug\DollarCompany.csproj.GenerateResource.cache
+F:\New folder\DollarCompany\DollarCompany\obj\Debug\DollarCompany.csproj.CoreCompileInputs.cache
+F:\New folder\DollarCompany\DollarCompany\obj\Debug\DollarCompany.exe
+F:\New folder\DollarCompany\DollarCompany\obj\Debug\DollarCompany.pdb
