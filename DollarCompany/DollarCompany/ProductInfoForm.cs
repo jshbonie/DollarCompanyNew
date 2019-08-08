@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
@@ -31,46 +32,8 @@ namespace DollarCompany
 
         private void ProductInfoForm_Activated(object sender, EventArgs e)
         {
-            //open file stream to read
-            using (StreamReader inputStream = new StreamReader(File.Open("Computer.txt", FileMode.Open)))
-            {
-                // write stuff to the file
-                Program.computer.productID = int.Parse(inputStream.ReadLine());
-                Program.computer.cost = int.Parse(inputStream.ReadLine());
-                Program.computer.manufacturer = inputStream.ReadLine();
-                Program.computer.model = inputStream.ReadLine();
-                Program.computer.RAM_type = inputStream.ReadLine();
-                Program.computer.RAM_size = inputStream.ReadLine();
-                Program.computer.displaytype = inputStream.ReadLine();
-                Program.computer.screensize = inputStream.ReadLine();
-                Program.computer.resolution = inputStream.ReadLine();
-                Program.computer.CPU_Class = inputStream.ReadLine();
-                Program.computer.CPU_brand = inputStream.ReadLine();
-                Program.computer.CPU_type = inputStream.ReadLine();
-                Program.computer.CPU_speed = inputStream.ReadLine();
-                Program.computer.CPU_number = inputStream.ReadLine();
-                Program.computer.condition = inputStream.ReadLine();
-                Program.computer.OS = inputStream.ReadLine();
-                Program.computer.platform = inputStream.ReadLine();
-                Program.computer.HDD_size = inputStream.ReadLine();
-                Program.computer.HDD_speed = inputStream.ReadLine();
-                Program.computer.GPU_type = inputStream.ReadLine();
-                Program.computer.optical_drive = inputStream.ReadLine();
-                Program.computer.Audio_type = inputStream.ReadLine();
-                Program.computer.LAN = inputStream.ReadLine();
-                Program.computer.WIFI = inputStream.ReadLine();
-                Program.computer.width = inputStream.ReadLine();
-                Program.computer.height = inputStream.ReadLine();
-                Program.computer.depth = inputStream.ReadLine();
-                Program.computer.weight = inputStream.ReadLine();
-                Program.computer.moust_type = inputStream.ReadLine();
-                Program.computer.power = inputStream.ReadLine();
-                Program.computer.webcam = inputStream.ReadLine();
-
-                //cleanup
-                inputStream.Close();
-                inputStream.Dispose();
                 
+                    
                 productIdDataLabel.Text = Program.computer.productID.ToString();
                 costDataLabel.Text = Program.computer.cost.ToString();
                 ManufacturerDataLabel.Text = Program.computer.manufacturer;
@@ -103,7 +66,7 @@ namespace DollarCompany
                 PowerDataLabel.Text = Program.computer.power;
                 WEBCAMEDataLabel.Text = Program.computer.webcam;
 
-            }
+            
         }
 
         private void ProductInfoForm_FormClosing(object sender, FormClosingEventArgs e)
