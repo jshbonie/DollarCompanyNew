@@ -21,6 +21,10 @@ namespace DollarCompany
 
         private void SelectForm_Load(object sender, EventArgs e)
         {
+            // TODO: This line of code loads data into the 'dollarComputersDataSet.products' table. You can move, or remove it, as needed.
+            this.productsTableAdapter.Fill(this.dollarComputersDataSet.products);
+            // TODO: This line of code loads data into the 'dollarComputersDataSet.products' table. You can move, or remove it, as needed.
+            this.productsTableAdapter.Fill(this.dollarComputersDataSet.products);
             // TODO: This line of code loads data into the 'sectionCDatabaseDataSet.StudentTable' table. You can move, or remove it, as needed.
             //this.studentTableTableAdapter.Fill(this.sectionCDatabaseDataSet.StudentTable);
 
@@ -49,9 +53,9 @@ namespace DollarCompany
         private void studentDataGridView_SelectionChanged(object sender, EventArgs e)
         {
             // local scope aliases
-            var rowIndex = studentDataGridView.CurrentCell.RowIndex;
-            var rows = studentDataGridView.Rows;
-            var columnCount = studentDataGridView.ColumnCount;
+            var rowIndex = productDataGridView.CurrentCell.RowIndex;
+            var rows = productDataGridView.Rows;
+            var columnCount = productDataGridView.ColumnCount;
             var cells = rows[rowIndex].Cells;
 
             rows[rowIndex].Selected = true;
@@ -64,37 +68,37 @@ namespace DollarCompany
 
             SelectionLabel.Text = outputString;
 
-            Program.computer.productID = int.Parse(cells[(int)ComputerField.PRODUCTID].Value.ToString());
-            Program.computer.cost = int.Parse(cells[(int)ComputerField.COST].Value.ToString());
-            Program.computer.manufacturer = cells[(int)ComputerField.MANUFACTURER].Value.ToString();
-            Program.computer.model = cells[(int)ComputerField.MODEL].Value.ToString();
-            Program.computer.RAM_type = cells[(int)ComputerField.RAM_TYPE].Value.ToString();
-            Program.computer.RAM_size = cells[(int)ComputerField.RAM_SIZE].Value.ToString();
-            Program.computer.displaytype = cells[(int)ComputerField.DISPLAYTYPE].Value.ToString();
-            Program.computer.screensize = cells[(int)ComputerField.SCREENSIZE].Value.ToString();
-            Program.computer.resolution = cells[(int)ComputerField.RESOLUTION].Value.ToString();
-            Program.computer.CPU_Class = cells[(int)ComputerField.CPU_CLASS].Value.ToString();
-            Program.computer.CPU_brand = cells[(int)ComputerField.CPU_BRAND].Value.ToString();
-            Program.computer.CPU_type = cells[(int)ComputerField.CPU_TYPE].Value.ToString();
-            Program.computer.CPU_speed = cells[(int)ComputerField.CPU_SPEED].Value.ToString();
-            Program.computer.CPU_number = cells[(int)ComputerField.CPU_NUMBER].Value.ToString();
-            Program.computer.condition = cells[(int)ComputerField.CONDITION].Value.ToString();
-            Program.computer.OS = cells[(int)ComputerField.OS].Value.ToString();
-            Program.computer.platform = cells[(int)ComputerField.PLATFORM].Value.ToString();
-            Program.computer.HDD_size = cells[(int)ComputerField.HDD_SIZE].Value.ToString();
-            Program.computer.HDD_speed = cells[(int)ComputerField.HDD_SPEED].Value.ToString();
-            Program.computer.GPU_type = cells[(int)ComputerField.GPU_TYPE].Value.ToString();
-            Program.computer.optical_drive = cells[(int)ComputerField.OPTICAL_DRIVE].Value.ToString();
-            Program.computer.Audio_type = cells[(int)ComputerField.AUDIO_TYPE].Value.ToString();
-            Program.computer.LAN = cells[(int)ComputerField.LAN].Value.ToString();
-            Program.computer.WIFI = cells[(int)ComputerField.WIFI].Value.ToString();
-            Program.computer.width = cells[(int)ComputerField.WIDTH].Value.ToString();
-            Program.computer.height = cells[(int)ComputerField.HEIGHT].Value.ToString();
-            Program.computer.depth = cells[(int)ComputerField.DEPTH].Value.ToString();
-            Program.computer.weight = cells[(int)ComputerField.WEIGHT].Value.ToString();
-            Program.computer.moust_type = cells[(int)ComputerField.MOUST_TYPE].Value.ToString();
-            Program.computer.power = cells[(int)ComputerField.POWER].Value.ToString();
-            Program.computer.webcam = cells[(int)ComputerField.WEBCAM].Value.ToString();
+            Program.product.productID = short.Parse(cells[(int)ComputerField.PRODUCTID].Value.ToString());
+            //Program.product.cost = int.Parse(cells[(int)ComputerField.COST].Value.ToString());
+            Program.product.manufacturer = cells[(int)ComputerField.MANUFACTURER].Value.ToString();
+            Program.product.model = cells[(int)ComputerField.MODEL].Value.ToString();
+            Program.product.RAM_type = cells[(int)ComputerField.RAM_TYPE].Value.ToString();
+            Program.product.RAM_size = cells[(int)ComputerField.RAM_SIZE].Value.ToString();
+            Program.product.displaytype = cells[(int)ComputerField.DISPLAYTYPE].Value.ToString();
+            Program.product.screensize = cells[(int)ComputerField.SCREENSIZE].Value.ToString();
+            Program.product.resolution = cells[(int)ComputerField.RESOLUTION].Value.ToString();
+            Program.product.CPU_Class = cells[(int)ComputerField.CPU_CLASS].Value.ToString();
+            Program.product.CPU_brand = cells[(int)ComputerField.CPU_BRAND].Value.ToString();
+            Program.product.CPU_type = cells[(int)ComputerField.CPU_TYPE].Value.ToString();
+            Program.product.CPU_speed = cells[(int)ComputerField.CPU_SPEED].Value.ToString();
+            Program.product.CPU_number = cells[(int)ComputerField.CPU_NUMBER].Value.ToString();
+            Program.product.condition = cells[(int)ComputerField.CONDITION].Value.ToString();
+            Program.product.OS = cells[(int)ComputerField.OS].Value.ToString();
+            Program.product.platform = cells[(int)ComputerField.PLATFORM].Value.ToString();
+            Program.product.HDD_size = cells[(int)ComputerField.HDD_SIZE].Value.ToString();
+            Program.product.HDD_speed = cells[(int)ComputerField.HDD_SPEED].Value.ToString();
+            Program.product.GPU_Type = cells[(int)ComputerField.GPU_TYPE].Value.ToString();
+            Program.product.optical_drive = cells[(int)ComputerField.OPTICAL_DRIVE].Value.ToString();
+            Program.product.Audio_type = cells[(int)ComputerField.AUDIO_TYPE].Value.ToString();
+            Program.product.LAN = cells[(int)ComputerField.LAN].Value.ToString();
+            Program.product.WIFI = cells[(int)ComputerField.WIFI].Value.ToString();
+            Program.product.width = cells[(int)ComputerField.WIDTH].Value.ToString();
+            Program.product.height = cells[(int)ComputerField.HEIGHT].Value.ToString();
+            Program.product.depth = cells[(int)ComputerField.DEPTH].Value.ToString();
+            Program.product.weight = cells[(int)ComputerField.WEIGHT].Value.ToString();
+            Program.product.moust_type = cells[(int)ComputerField.MOUST_TYPE].Value.ToString();
+            Program.product.power = cells[(int)ComputerField.POWER].Value.ToString();
+            Program.product.webcam = cells[(int)ComputerField.WEBCAM].Value.ToString();
 
 
         }
@@ -115,37 +119,37 @@ namespace DollarCompany
                 {
 
                     // write stuff to the file
-                    outputString.WriteLine(Program.computer.productID.ToString());
-                    outputString.WriteLine(Program.computer.cost.ToString());
-                    outputString.WriteLine(Program.computer.manufacturer);
-                    outputString.WriteLine(Program.computer.model);
-                    outputString.WriteLine(Program.computer.RAM_type);
-                    outputString.WriteLine(Program.computer.RAM_size);
-                    outputString.WriteLine(Program.computer.displaytype);
-                    outputString.WriteLine(Program.computer.screensize);
-                    outputString.WriteLine(Program.computer.resolution);
-                    outputString.WriteLine(Program.computer.CPU_Class);
-                    outputString.WriteLine(Program.computer.CPU_brand);
-                    outputString.WriteLine(Program.computer.CPU_type);
-                    outputString.WriteLine(Program.computer.CPU_speed);
-                    outputString.WriteLine(Program.computer.CPU_number);
-                    outputString.WriteLine(Program.computer.condition);
-                    outputString.WriteLine(Program.computer.OS);
-                    outputString.WriteLine(Program.computer.platform);
-                    outputString.WriteLine(Program.computer.HDD_size);
-                    outputString.WriteLine(Program.computer.HDD_speed);
-                    outputString.WriteLine(Program.computer.GPU_type);
-                    outputString.WriteLine(Program.computer.optical_drive);
-                    outputString.WriteLine(Program.computer.Audio_type);
-                    outputString.WriteLine(Program.computer.LAN);
-                    outputString.WriteLine(Program.computer.WIFI);
-                    outputString.WriteLine(Program.computer.width);
-                    outputString.WriteLine(Program.computer.height);
-                    outputString.WriteLine(Program.computer.depth);
-                    outputString.WriteLine(Program.computer.weight);
-                    outputString.WriteLine(Program.computer.moust_type);
-                    outputString.WriteLine(Program.computer.power);
-                    outputString.WriteLine(Program.computer.webcam);
+                    outputString.WriteLine(Program.product.productID.ToString());
+                    outputString.WriteLine(Program.product.cost.ToString());
+                    outputString.WriteLine(Program.product.manufacturer);
+                    outputString.WriteLine(Program.product.model);
+                    outputString.WriteLine(Program.product.RAM_type);
+                    outputString.WriteLine(Program.product.RAM_size);
+                    outputString.WriteLine(Program.product.displaytype);
+                    outputString.WriteLine(Program.product.screensize);
+                    outputString.WriteLine(Program.product.resolution);
+                    outputString.WriteLine(Program.product.CPU_Class);
+                    outputString.WriteLine(Program.product.CPU_brand);
+                    outputString.WriteLine(Program.product.CPU_type);
+                    outputString.WriteLine(Program.product.CPU_speed);
+                    outputString.WriteLine(Program.product.CPU_number);
+                    outputString.WriteLine(Program.product.condition);
+                    outputString.WriteLine(Program.product.OS);
+                    outputString.WriteLine(Program.product.platform);
+                    outputString.WriteLine(Program.product.HDD_size);
+                    outputString.WriteLine(Program.product.HDD_speed);
+                    outputString.WriteLine(Program.product.GPU_Type);
+                    outputString.WriteLine(Program.product.optical_drive);
+                    outputString.WriteLine(Program.product.Audio_type);
+                    outputString.WriteLine(Program.product.LAN);
+                    outputString.WriteLine(Program.product.WIFI);
+                    outputString.WriteLine(Program.product.width);
+                    outputString.WriteLine(Program.product.height);
+                    outputString.WriteLine(Program.product.depth);
+                    outputString.WriteLine(Program.product.weight);
+                    outputString.WriteLine(Program.product.moust_type);
+                    outputString.WriteLine(Program.product.power);
+                    outputString.WriteLine(Program.product.webcam);
 
                     // close file
                     outputString.Close();
@@ -182,37 +186,37 @@ namespace DollarCompany
                     using (StreamReader inputStream = new StreamReader(File.Open(ProductOpenFileDialog.FileName, FileMode.Open)))
                     {
                         // read stuff from the file
-                        Program.computer.productID = int.Parse(inputStream.ReadLine());
-                        Program.computer.cost = int.Parse(inputStream.ReadLine());
-                        Program.computer.manufacturer = inputStream.ReadLine();
-                        Program.computer.model = inputStream.ReadLine();
-                        Program.computer.RAM_type = inputStream.ReadLine();
-                        Program.computer.RAM_size = inputStream.ReadLine();
-                        Program.computer.displaytype = inputStream.ReadLine();
-                        Program.computer.screensize = inputStream.ReadLine();
-                        Program.computer.resolution = inputStream.ReadLine();
-                        Program.computer.CPU_Class = inputStream.ReadLine();
-                        Program.computer.CPU_brand = inputStream.ReadLine();
-                        Program.computer.CPU_type = inputStream.ReadLine();
-                        Program.computer.CPU_speed = inputStream.ReadLine();
-                        Program.computer.CPU_number = inputStream.ReadLine();
-                        Program.computer.condition = inputStream.ReadLine();
-                        Program.computer.OS = inputStream.ReadLine();
-                        Program.computer.platform = inputStream.ReadLine();
-                        Program.computer.HDD_size = inputStream.ReadLine();
-                        Program.computer.HDD_speed = inputStream.ReadLine();
-                        Program.computer.GPU_type = inputStream.ReadLine();
-                        Program.computer.optical_drive = inputStream.ReadLine();
-                        Program.computer.Audio_type = inputStream.ReadLine();
-                        Program.computer.LAN = inputStream.ReadLine();
-                        Program.computer.WIFI = inputStream.ReadLine();
-                        Program.computer.width = inputStream.ReadLine();
-                        Program.computer.height = inputStream.ReadLine();
-                        Program.computer.depth = inputStream.ReadLine();
-                        Program.computer.weight = inputStream.ReadLine();
-                        Program.computer.moust_type = inputStream.ReadLine();
-                        Program.computer.power = inputStream.ReadLine();
-                        Program.computer.webcam = inputStream.ReadLine();
+                        Program.product.productID = short.Parse(inputStream.ReadLine());
+                        Program.product.cost = int.Parse(inputStream.ReadLine());
+                        Program.product.manufacturer = inputStream.ReadLine();
+                        Program.product.model = inputStream.ReadLine();
+                        Program.product.RAM_type = inputStream.ReadLine();
+                        Program.product.RAM_size = inputStream.ReadLine();
+                        Program.product.displaytype = inputStream.ReadLine();
+                        Program.product.screensize = inputStream.ReadLine();
+                        Program.product.resolution = inputStream.ReadLine();
+                        Program.product.CPU_Class = inputStream.ReadLine();
+                        Program.product.CPU_brand = inputStream.ReadLine();
+                        Program.product.CPU_type = inputStream.ReadLine();
+                        Program.product.CPU_speed = inputStream.ReadLine();
+                        Program.product.CPU_number = inputStream.ReadLine();
+                        Program.product.condition = inputStream.ReadLine();
+                        Program.product.OS = inputStream.ReadLine();
+                        Program.product.platform = inputStream.ReadLine();
+                        Program.product.HDD_size = inputStream.ReadLine();
+                        Program.product.HDD_speed = inputStream.ReadLine();
+                        Program.product.GPU_Type = inputStream.ReadLine();
+                        Program.product.optical_drive = inputStream.ReadLine();
+                        Program.product.Audio_type = inputStream.ReadLine();
+                        Program.product.LAN = inputStream.ReadLine();
+                        Program.product.WIFI = inputStream.ReadLine();
+                        Program.product.width = inputStream.ReadLine();
+                        Program.product.height = inputStream.ReadLine();
+                        Program.product.depth = inputStream.ReadLine();
+                        Program.product.weight = inputStream.ReadLine();
+                        Program.product.moust_type = inputStream.ReadLine();
+                        Program.product.power = inputStream.ReadLine();
+                        Program.product.webcam = inputStream.ReadLine();
 
                         //cleanup
                         inputStream.Close();
@@ -251,37 +255,37 @@ namespace DollarCompany
                     using (BinaryReader inputStream = new BinaryReader(File.Open(ProductOpenFileDialog.FileName, FileMode.Open)))
                     {
                         // read stuff from the file
-                        Program.computer.productID = int.Parse(inputStream.ReadString());
-                        Program.computer.cost = int.Parse(inputStream.ReadString());
-                        Program.computer.manufacturer = inputStream.ReadString();
-                        Program.computer.model = inputStream.ReadString();
-                        Program.computer.RAM_type = inputStream.ReadString();
-                        Program.computer.RAM_size = inputStream.ReadString();
-                        Program.computer.displaytype = inputStream.ReadString();
-                        Program.computer.screensize = inputStream.ReadString();
-                        Program.computer.resolution = inputStream.ReadString();
-                        Program.computer.CPU_Class = inputStream.ReadString();
-                        Program.computer.CPU_brand = inputStream.ReadString();
-                        Program.computer.CPU_type = inputStream.ReadString();
-                        Program.computer.CPU_speed = inputStream.ReadString();
-                        Program.computer.CPU_number = inputStream.ReadString();
-                        Program.computer.condition = inputStream.ReadString();
-                        Program.computer.OS = inputStream.ReadString();
-                        Program.computer.platform = inputStream.ReadString();
-                        Program.computer.HDD_size = inputStream.ReadString();
-                        Program.computer.HDD_speed = inputStream.ReadString();
-                        Program.computer.GPU_type = inputStream.ReadString();
-                        Program.computer.optical_drive = inputStream.ReadString();
-                        Program.computer.Audio_type = inputStream.ReadString();
-                        Program.computer.LAN = inputStream.ReadString();
-                        Program.computer.WIFI = inputStream.ReadString();
-                        Program.computer.width = inputStream.ReadString();
-                        Program.computer.height = inputStream.ReadString();
-                        Program.computer.depth = inputStream.ReadString();
-                        Program.computer.weight = inputStream.ReadString();
-                        Program.computer.moust_type = inputStream.ReadString();
-                        Program.computer.power = inputStream.ReadString();
-                        Program.computer.webcam = inputStream.ReadString();
+                        Program.product.productID = short.Parse(inputStream.ReadString());
+                        Program.product.cost = int.Parse(inputStream.ReadString());
+                        Program.product.manufacturer = inputStream.ReadString();
+                        Program.product.model = inputStream.ReadString();
+                        Program.product.RAM_type = inputStream.ReadString();
+                        Program.product.RAM_size = inputStream.ReadString();
+                        Program.product.displaytype = inputStream.ReadString();
+                        Program.product.screensize = inputStream.ReadString();
+                        Program.product.resolution = inputStream.ReadString();
+                        Program.product.CPU_Class = inputStream.ReadString();
+                        Program.product.CPU_brand = inputStream.ReadString();
+                        Program.product.CPU_type = inputStream.ReadString();
+                        Program.product.CPU_speed = inputStream.ReadString();
+                        Program.product.CPU_number = inputStream.ReadString();
+                        Program.product.condition = inputStream.ReadString();
+                        Program.product.OS = inputStream.ReadString();
+                        Program.product.platform = inputStream.ReadString();
+                        Program.product.HDD_size = inputStream.ReadString();
+                        Program.product.HDD_speed = inputStream.ReadString();
+                        Program.product.GPU_Type = inputStream.ReadString();
+                        Program.product.optical_drive = inputStream.ReadString();
+                        Program.product.Audio_type = inputStream.ReadString();
+                        Program.product.LAN = inputStream.ReadString();
+                        Program.product.WIFI = inputStream.ReadString();
+                        Program.product.width = inputStream.ReadString();
+                        Program.product.height = inputStream.ReadString();
+                        Program.product.depth = inputStream.ReadString();
+                        Program.product.weight = inputStream.ReadString();
+                        Program.product.moust_type = inputStream.ReadString();
+                        Program.product.power = inputStream.ReadString();
+                        Program.product.webcam = inputStream.ReadString();
 
                         //cleanup
                         inputStream.Close();
@@ -322,37 +326,37 @@ namespace DollarCompany
                 {
 
                     // write stuff to the file
-                    outputString.Write(Program.computer.productID.ToString());
-                    outputString.Write(Program.computer.cost.ToString());
-                    outputString.Write(Program.computer.manufacturer);
-                    outputString.Write(Program.computer.model);
-                    outputString.Write(Program.computer.RAM_type);
-                    outputString.Write(Program.computer.RAM_size);
-                    outputString.Write(Program.computer.displaytype);
-                    outputString.Write(Program.computer.screensize);
-                    outputString.Write(Program.computer.resolution);
-                    outputString.Write(Program.computer.CPU_Class);
-                    outputString.Write(Program.computer.CPU_brand);
-                    outputString.Write(Program.computer.CPU_type);
-                    outputString.Write(Program.computer.CPU_speed);
-                    outputString.Write(Program.computer.CPU_number);
-                    outputString.Write(Program.computer.condition);
-                    outputString.Write(Program.computer.OS);
-                    outputString.Write(Program.computer.platform);
-                    outputString.Write(Program.computer.HDD_size);
-                    outputString.Write(Program.computer.HDD_speed);
-                    outputString.Write(Program.computer.GPU_type);
-                    outputString.Write(Program.computer.optical_drive);
-                    outputString.Write(Program.computer.Audio_type);
-                    outputString.Write(Program.computer.LAN);
-                    outputString.Write(Program.computer.WIFI);
-                    outputString.Write(Program.computer.width);
-                    outputString.Write(Program.computer.height);
-                    outputString.Write(Program.computer.depth);
-                    outputString.Write(Program.computer.weight);
-                    outputString.Write(Program.computer.moust_type);
-                    outputString.Write(Program.computer.power);
-                    outputString.Write(Program.computer.webcam);
+                    outputString.Write(Program.product.productID.ToString());
+                    outputString.Write(Program.product.cost.ToString());
+                    outputString.Write(Program.product.manufacturer);
+                    outputString.Write(Program.product.model);
+                    outputString.Write(Program.product.RAM_type);
+                    outputString.Write(Program.product.RAM_size);
+                    outputString.Write(Program.product.displaytype);
+                    outputString.Write(Program.product.screensize);
+                    outputString.Write(Program.product.resolution);
+                    outputString.Write(Program.product.CPU_Class);
+                    outputString.Write(Program.product.CPU_brand);
+                    outputString.Write(Program.product.CPU_type);
+                    outputString.Write(Program.product.CPU_speed);
+                    outputString.Write(Program.product.CPU_number);
+                    outputString.Write(Program.product.condition);
+                    outputString.Write(Program.product.OS);
+                    outputString.Write(Program.product.platform);
+                    outputString.Write(Program.product.HDD_size);
+                    outputString.Write(Program.product.HDD_speed);
+                    outputString.Write(Program.product.GPU_Type);
+                    outputString.Write(Program.product.optical_drive);
+                    outputString.Write(Program.product.Audio_type);
+                    outputString.Write(Program.product.LAN);
+                    outputString.Write(Program.product.WIFI);
+                    outputString.Write(Program.product.width);
+                    outputString.Write(Program.product.height);
+                    outputString.Write(Program.product.depth);
+                    outputString.Write(Program.product.weight);
+                    outputString.Write(Program.product.moust_type);
+                    outputString.Write(Program.product.power);
+                    outputString.Write(Program.product.webcam);
 
                     // close file
                     outputString.Flush();
@@ -363,6 +367,11 @@ namespace DollarCompany
                     MessageBox.Show("Binary File Saved...", "Saving Binary file...", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
+        }
+
+        private void studentDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

@@ -40,10 +40,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.ManufacturerDataLabel = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.ram_typeDataLabel = new System.Windows.Forms.Label();
             this.RamTypeDataLAbel = new System.Windows.Forms.Label();
-            this.ram_SizeDataLabel = new System.Windows.Forms.Label();
+            this.RamTypeLAbel = new System.Windows.Forms.Label();
             this.ramSizeDataLabel = new System.Windows.Forms.Label();
+            this.ramSizeLabel = new System.Windows.Forms.Label();
             this.WEBCAMEDataLabel = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.ScreenSizeDataLabel = new System.Windows.Forms.Label();
@@ -128,7 +128,7 @@
             this.productIdDataLabel.Name = "productIdDataLabel";
             this.productIdDataLabel.Size = new System.Drawing.Size(215, 21);
             this.productIdDataLabel.TabIndex = 0;
-            this.productIdDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.productIdDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // conditionDataLabel
             // 
@@ -139,7 +139,7 @@
             this.conditionDataLabel.Name = "conditionDataLabel";
             this.conditionDataLabel.Size = new System.Drawing.Size(215, 21);
             this.conditionDataLabel.TabIndex = 1;
-            this.conditionDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.conditionDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // conditionLabel
             // 
@@ -160,7 +160,7 @@
             this.costDataLabel.Name = "costDataLabel";
             this.costDataLabel.Size = new System.Drawing.Size(215, 21);
             this.costDataLabel.TabIndex = 3;
-            this.costDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.costDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // costLabel
             // 
@@ -193,7 +193,7 @@
             this.PlatformDataLabel.Name = "PlatformDataLabel";
             this.PlatformDataLabel.Size = new System.Drawing.Size(215, 21);
             this.PlatformDataLabel.TabIndex = 8;
-            this.PlatformDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.PlatformDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
@@ -214,7 +214,7 @@
             this.ManufacturerDataLabel.Name = "ManufacturerDataLabel";
             this.ManufacturerDataLabel.Size = new System.Drawing.Size(215, 21);
             this.ManufacturerDataLabel.TabIndex = 10;
-            this.ManufacturerDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.ManufacturerDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label4
             // 
@@ -226,47 +226,47 @@
             this.label4.Text = "Manufacturer";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // ram_typeDataLabel
-            // 
-            this.ram_typeDataLabel.BackColor = System.Drawing.Color.White;
-            this.ram_typeDataLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ram_typeDataLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.ram_typeDataLabel.Location = new System.Drawing.Point(118, 243);
-            this.ram_typeDataLabel.Name = "ram_typeDataLabel";
-            this.ram_typeDataLabel.Size = new System.Drawing.Size(215, 21);
-            this.ram_typeDataLabel.TabIndex = 12;
-            this.ram_typeDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
             // RamTypeDataLAbel
             // 
+            this.RamTypeDataLAbel.BackColor = System.Drawing.Color.White;
+            this.RamTypeDataLAbel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.RamTypeDataLAbel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.RamTypeDataLAbel.Location = new System.Drawing.Point(9, 236);
+            this.RamTypeDataLAbel.Location = new System.Drawing.Point(118, 243);
             this.RamTypeDataLAbel.Name = "RamTypeDataLAbel";
-            this.RamTypeDataLAbel.Size = new System.Drawing.Size(103, 35);
-            this.RamTypeDataLAbel.TabIndex = 13;
-            this.RamTypeDataLAbel.Text = "RAM Type";
-            this.RamTypeDataLAbel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.RamTypeDataLAbel.Size = new System.Drawing.Size(215, 21);
+            this.RamTypeDataLAbel.TabIndex = 12;
+            this.RamTypeDataLAbel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // ram_SizeDataLabel
+            // RamTypeLAbel
             // 
-            this.ram_SizeDataLabel.BackColor = System.Drawing.Color.White;
-            this.ram_SizeDataLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ram_SizeDataLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.ram_SizeDataLabel.Location = new System.Drawing.Point(118, 279);
-            this.ram_SizeDataLabel.Name = "ram_SizeDataLabel";
-            this.ram_SizeDataLabel.Size = new System.Drawing.Size(215, 21);
-            this.ram_SizeDataLabel.TabIndex = 14;
-            this.ram_SizeDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.RamTypeLAbel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.RamTypeLAbel.Location = new System.Drawing.Point(9, 236);
+            this.RamTypeLAbel.Name = "RamTypeLAbel";
+            this.RamTypeLAbel.Size = new System.Drawing.Size(103, 35);
+            this.RamTypeLAbel.TabIndex = 13;
+            this.RamTypeLAbel.Text = "RAM Type";
+            this.RamTypeLAbel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // ramSizeDataLabel
             // 
+            this.ramSizeDataLabel.BackColor = System.Drawing.Color.White;
+            this.ramSizeDataLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ramSizeDataLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.ramSizeDataLabel.Location = new System.Drawing.Point(9, 272);
+            this.ramSizeDataLabel.Location = new System.Drawing.Point(118, 279);
             this.ramSizeDataLabel.Name = "ramSizeDataLabel";
-            this.ramSizeDataLabel.Size = new System.Drawing.Size(103, 35);
-            this.ramSizeDataLabel.TabIndex = 15;
-            this.ramSizeDataLabel.Text = "RAM Size";
-            this.ramSizeDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.ramSizeDataLabel.Size = new System.Drawing.Size(215, 21);
+            this.ramSizeDataLabel.TabIndex = 14;
+            this.ramSizeDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // ramSizeLabel
+            // 
+            this.ramSizeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.ramSizeLabel.Location = new System.Drawing.Point(9, 272);
+            this.ramSizeLabel.Name = "ramSizeLabel";
+            this.ramSizeLabel.Size = new System.Drawing.Size(103, 35);
+            this.ramSizeLabel.TabIndex = 15;
+            this.ramSizeLabel.Text = "RAM Size";
+            this.ramSizeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // WEBCAMEDataLabel
             // 
@@ -277,7 +277,7 @@
             this.WEBCAMEDataLabel.Name = "WEBCAMEDataLabel";
             this.WEBCAMEDataLabel.Size = new System.Drawing.Size(215, 21);
             this.WEBCAMEDataLabel.TabIndex = 16;
-            this.WEBCAMEDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.WEBCAMEDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label10
             // 
@@ -298,7 +298,7 @@
             this.ScreenSizeDataLabel.Name = "ScreenSizeDataLabel";
             this.ScreenSizeDataLabel.Size = new System.Drawing.Size(215, 21);
             this.ScreenSizeDataLabel.TabIndex = 18;
-            this.ScreenSizeDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.ScreenSizeDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label12
             // 
@@ -319,7 +319,7 @@
             this.ResolutionDataLabel.Name = "ResolutionDataLabel";
             this.ResolutionDataLabel.Size = new System.Drawing.Size(215, 21);
             this.ResolutionDataLabel.TabIndex = 20;
-            this.ResolutionDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.ResolutionDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label14
             // 
@@ -340,7 +340,7 @@
             this.CPUSpeedDataLabel.Name = "CPUSpeedDataLabel";
             this.CPUSpeedDataLabel.Size = new System.Drawing.Size(215, 21);
             this.CPUSpeedDataLabel.TabIndex = 22;
-            this.CPUSpeedDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.CPUSpeedDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label16
             // 
@@ -361,7 +361,7 @@
             this.DisplayDataLabel.Name = "DisplayDataLabel";
             this.DisplayDataLabel.Size = new System.Drawing.Size(215, 21);
             this.DisplayDataLabel.TabIndex = 24;
-            this.DisplayDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.DisplayDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label18
             // 
@@ -382,7 +382,7 @@
             this.GPUTypeDataLabel.Name = "GPUTypeDataLabel";
             this.GPUTypeDataLabel.Size = new System.Drawing.Size(215, 21);
             this.GPUTypeDataLabel.TabIndex = 26;
-            this.GPUTypeDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.GPUTypeDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label20
             // 
@@ -403,7 +403,7 @@
             this.CPU_TypeDataLabel.Name = "CPU_TypeDataLabel";
             this.CPU_TypeDataLabel.Size = new System.Drawing.Size(215, 21);
             this.CPU_TypeDataLabel.TabIndex = 28;
-            this.CPU_TypeDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.CPU_TypeDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label22
             // 
@@ -424,7 +424,7 @@
             this.OSDataLabel.Name = "OSDataLabel";
             this.OSDataLabel.Size = new System.Drawing.Size(357, 21);
             this.OSDataLabel.TabIndex = 30;
-            this.OSDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.OSDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label24
             // 
@@ -445,7 +445,7 @@
             this.ModelDataLabel.Name = "ModelDataLabel";
             this.ModelDataLabel.Size = new System.Drawing.Size(357, 21);
             this.ModelDataLabel.TabIndex = 32;
-            this.ModelDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.ModelDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label26
             // 
@@ -585,7 +585,7 @@
             this.WifiDataLabel.Name = "WifiDataLabel";
             this.WifiDataLabel.Size = new System.Drawing.Size(215, 21);
             this.WifiDataLabel.TabIndex = 55;
-            this.WifiDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.WifiDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label3
             // 
@@ -606,7 +606,7 @@
             this.OpticalDriveDataLabel.Name = "OpticalDriveDataLabel";
             this.OpticalDriveDataLabel.Size = new System.Drawing.Size(215, 21);
             this.OpticalDriveDataLabel.TabIndex = 53;
-            this.OpticalDriveDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.OpticalDriveDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label7
             // 
@@ -627,7 +627,7 @@
             this.CPUBrandDataLAbel.Name = "CPUBrandDataLAbel";
             this.CPUBrandDataLAbel.Size = new System.Drawing.Size(215, 21);
             this.CPUBrandDataLAbel.TabIndex = 51;
-            this.CPUBrandDataLAbel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.CPUBrandDataLAbel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label11
             // 
@@ -648,7 +648,7 @@
             this.LANDataLabel.Name = "LANDataLabel";
             this.LANDataLabel.Size = new System.Drawing.Size(215, 21);
             this.LANDataLabel.TabIndex = 49;
-            this.LANDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.LANDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label15
             // 
@@ -669,7 +669,7 @@
             this.HDDSpeedDataLabel.Name = "HDDSpeedDataLabel";
             this.HDDSpeedDataLabel.Size = new System.Drawing.Size(215, 21);
             this.HDDSpeedDataLabel.TabIndex = 47;
-            this.HDDSpeedDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.HDDSpeedDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label19
             // 
@@ -690,7 +690,7 @@
             this.CPU_ClassDataLabel.Name = "CPU_ClassDataLabel";
             this.CPU_ClassDataLabel.Size = new System.Drawing.Size(215, 21);
             this.CPU_ClassDataLabel.TabIndex = 45;
-            this.CPU_ClassDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.CPU_ClassDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label23
             // 
@@ -711,7 +711,7 @@
             this.AudioTypeDataLabel.Name = "AudioTypeDataLabel";
             this.AudioTypeDataLabel.Size = new System.Drawing.Size(215, 21);
             this.AudioTypeDataLabel.TabIndex = 43;
-            this.AudioTypeDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.AudioTypeDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label30
             // 
@@ -732,7 +732,7 @@
             this.HDDSizeDataLabel.Name = "HDDSizeDataLabel";
             this.HDDSizeDataLabel.Size = new System.Drawing.Size(215, 21);
             this.HDDSizeDataLabel.TabIndex = 41;
-            this.HDDSizeDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.HDDSizeDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label32
             // 
@@ -753,7 +753,7 @@
             this.CPU_NumberDataLabel.Name = "CPU_NumberDataLabel";
             this.CPU_NumberDataLabel.Size = new System.Drawing.Size(215, 21);
             this.CPU_NumberDataLabel.TabIndex = 39;
-            this.CPU_NumberDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.CPU_NumberDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label34
             // 
@@ -960,10 +960,10 @@
             this.Controls.Add(this.label12);
             this.Controls.Add(this.WEBCAMEDataLabel);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.ram_SizeDataLabel);
             this.Controls.Add(this.ramSizeDataLabel);
-            this.Controls.Add(this.ram_typeDataLabel);
+            this.Controls.Add(this.ramSizeLabel);
             this.Controls.Add(this.RamTypeDataLAbel);
+            this.Controls.Add(this.RamTypeLAbel);
             this.Controls.Add(this.ManufacturerDataLabel);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.PlatformDataLabel);
@@ -1005,10 +1005,10 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label ManufacturerDataLabel;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label ram_typeDataLabel;
         private System.Windows.Forms.Label RamTypeDataLAbel;
-        private System.Windows.Forms.Label ram_SizeDataLabel;
+        private System.Windows.Forms.Label RamTypeLAbel;
         private System.Windows.Forms.Label ramSizeDataLabel;
+        private System.Windows.Forms.Label ramSizeLabel;
         private System.Windows.Forms.Label WEBCAMEDataLabel;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label ScreenSizeDataLabel;

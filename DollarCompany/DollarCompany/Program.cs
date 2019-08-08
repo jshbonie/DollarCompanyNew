@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DollarCompany.Data;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -8,6 +9,7 @@ namespace DollarCompany
 {
     public static class Program
     {
+        public static Product product;
         public static SelectForm selectForm;
         public static SplashScreen splashScreen;
         public static AboutForm aboutForm;
@@ -26,7 +28,7 @@ namespace DollarCompany
             aboutForm = new AboutForm();
             computer = new Computer();
             productInfoForm = new ProductInfoForm();
-
+            product = new Product();
             Application.Run(splashScreen);
         }
     }
