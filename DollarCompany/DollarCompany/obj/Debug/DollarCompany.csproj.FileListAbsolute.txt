@@ -83,3 +83,6 @@ C:\Users\301009614\Desktop\New folder (2)\DollarCompany\DollarCompany\obj\Debug\
 C:\Users\301009614\Desktop\New folder (2)\DollarCompany\DollarCompany\obj\Debug\DollarCompany.csproj.CopyComplete
 C:\Users\301009614\Desktop\New folder (2)\DollarCompany\DollarCompany\obj\Debug\DollarCompany.exe
 C:\Users\301009614\Desktop\New folder (2)\DollarCompany\DollarCompany\obj\Debug\DollarCompany.pdb
+C:\Users\301009614\Desktop\New folder (2)\DollarCompany\DollarCompany\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\301009614\Desktop\New folder (2)\DollarCompany\DollarCompany\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\301009614\Desktop\New folder (2)\DollarCompany\DollarCompany\obj\Debug\DollarCompany.OrderForm.resources

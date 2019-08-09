@@ -15,6 +15,7 @@ namespace DollarCompany
         public static AboutForm aboutForm;
         public static Computer computer;
         public static ProductInfoForm productInfoForm;
+        public static OrderForm orderForm;
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -29,6 +30,7 @@ namespace DollarCompany
             computer = new Computer();
             productInfoForm = new ProductInfoForm();
             product = new Product();
+            orderForm = new OrderForm();
             Application.Run(splashScreen);
         }
     }

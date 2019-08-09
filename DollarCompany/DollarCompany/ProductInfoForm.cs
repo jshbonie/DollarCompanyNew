@@ -133,5 +133,11 @@ namespace DollarCompany
         {
 
         }
+
+        private void productInfoNextButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Program.orderForm.Show();
+        }
     }
 }

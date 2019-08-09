@@ -575,6 +575,7 @@
             this.productInfoNextButton.TabIndex = 38;
             this.productInfoNextButton.Text = "Next";
             this.productInfoNextButton.UseVisualStyleBackColor = false;
+            this.productInfoNextButton.Click += new System.EventHandler(this.productInfoNextButton_Click);
             // 
             // WifiDataLabel
             // 
@@ -907,6 +908,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightGray;
             this.ClientSize = new System.Drawing.Size(1006, 676);
             this.Controls.Add(this.PowerDataLabel);
             this.Controls.Add(this.label8);
