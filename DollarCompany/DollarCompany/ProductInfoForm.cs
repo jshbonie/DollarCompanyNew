@@ -34,37 +34,37 @@ namespace DollarCompany
         {
                 
                     
-                productIdDataLabel.Text = Program.computer.productID.ToString();
-                costDataLabel.Text = Program.computer.cost.ToString();
-                ManufacturerDataLabel.Text = Program.computer.manufacturer;
-                ModelDataLabel.Text = Program.computer.model;
-                RamTypeDataLAbel.Text = Program.computer.RAM_type;
-                ramSizeDataLabel.Text = Program.computer.RAM_size;
-                DisplayDataLabel.Text = Program.computer.displaytype;
-                ScreenSizeDataLabel.Text = Program.computer.screensize;
-                ResolutionDataLabel.Text = Program.computer.resolution;
-                CPU_ClassDataLabel.Text = Program.computer.CPU_Class;
-                CPUBrandDataLAbel.Text = Program.computer.CPU_brand;
-                CPU_TypeDataLabel.Text = Program.computer.CPU_type;
-                CPUSpeedDataLabel.Text = Program.computer.CPU_speed;
-                CPU_NumberDataLabel.Text = Program.computer.CPU_number;
-                conditionDataLabel.Text = Program.computer.condition;
-                OSDataLabel.Text = Program.computer.OS;
-                PlatformDataLabel.Text = Program.computer.platform;
-                HDDSizeDataLabel.Text = Program.computer.HDD_size;
-                HDDSpeedDataLabel.Text = Program.computer.HDD_speed;
-                GPUTypeDataLabel.Text = Program.computer.GPU_type;
-                OpticalDriveDataLabel.Text = Program.computer.optical_drive;
-                AudioTypeDataLabel.Text = Program.computer.Audio_type;
-                LANDataLabel.Text = Program.computer.LAN;
-                WifiDataLabel.Text = Program.computer.WIFI;
-                WidthDataLabel.Text = Program.computer.width;
-                HeightDataLabel.Text = Program.computer.height;
-                DepthDataLabel.Text = Program.computer.depth;
-                WeightDataLabel.Text = Program.computer.weight;
-                MoustDataLabel.Text = Program.computer.moust_type;
-                PowerDataLabel.Text = Program.computer.power;
-                WEBCAMEDataLabel.Text = Program.computer.webcam;
+                productIdDataLabel.Text = Program.product.productID.ToString();
+                costDataLabel.Text = Program.product.cost.ToString();
+                ManufacturerDataLabel.Text = Program.product.manufacturer;
+                ModelDataLabel.Text = Program.product.model;
+                RamTypeDataLAbel.Text = Program.product.RAM_type;
+                ramSizeDataLabel.Text = Program.product.RAM_size;
+                DisplayDataLabel.Text = Program.product.displaytype;
+                ScreenSizeDataLabel.Text = Program.product.screensize;
+                ResolutionDataLabel.Text = Program.product.resolution;
+                CPU_ClassDataLabel.Text = Program.product.CPU_Class;
+                CPUBrandDataLAbel.Text = Program.product.CPU_brand;
+                CPU_TypeDataLabel.Text = Program.product.CPU_type;
+                CPUSpeedDataLabel.Text = Program.product.CPU_speed;
+                CPU_NumberDataLabel.Text = Program.product.CPU_number;
+                conditionDataLabel.Text = Program.product.condition;
+                OSDataLabel.Text = Program.product.OS;
+                PlatformDataLabel.Text = Program.product.platform;
+                HDDSizeDataLabel.Text = Program.product.HDD_size;
+                HDDSpeedDataLabel.Text = Program.product.HDD_speed;
+                GPUTypeDataLabel.Text = Program.product.GPU_Type;
+                OpticalDriveDataLabel.Text = Program.product.optical_drive;
+                AudioTypeDataLabel.Text = Program.product.Audio_type;
+                LANDataLabel.Text = Program.product.LAN;
+                WifiDataLabel.Text = Program.product.WIFI;
+                WidthDataLabel.Text = Program.product.width;
+                HeightDataLabel.Text = Program.product.height;
+                DepthDataLabel.Text = Program.product.depth;
+                WeightDataLabel.Text = Program.product.weight;
+                MoustDataLabel.Text = Program.product.moust_type;
+                PowerDataLabel.Text = Program.product.power;
+                WEBCAMEDataLabel.Text = Program.product.webcam;
 
             
         }

@@ -21,12 +21,10 @@ namespace DollarCompany
 
         private void SelectForm_Load(object sender, EventArgs e)
         {
+          
             // TODO: This line of code loads data into the 'dollarComputersDataSet.products' table. You can move, or remove it, as needed.
             this.productsTableAdapter.Fill(this.dollarComputersDataSet.products);
-            // TODO: This line of code loads data into the 'dollarComputersDataSet.products' table. You can move, or remove it, as needed.
-            this.productsTableAdapter.Fill(this.dollarComputersDataSet.products);
-            // TODO: This line of code loads data into the 'sectionCDatabaseDataSet.StudentTable' table. You can move, or remove it, as needed.
-            //this.studentTableTableAdapter.Fill(this.sectionCDatabaseDataSet.StudentTable);
+            
 
         }
 
@@ -372,6 +370,11 @@ namespace DollarCompany
         private void studentDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+
+        private void CancelButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
