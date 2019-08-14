@@ -59,7 +59,7 @@ namespace DollarCompany
             rows[rowIndex].Selected = true;
 
             string outputString = string.Empty;
-            for (int index = 0; index < columnCount; index++)
+            for (int index = 1; index < 4; index++)
             {
                 outputString += cells[index].Value.ToString() + " ";
             }
@@ -375,6 +375,11 @@ namespace DollarCompany
         private void CancelButton_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void SelectionLabel_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

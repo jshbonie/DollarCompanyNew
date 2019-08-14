@@ -39,7 +39,7 @@ namespace DollarCompany
                 ManufacturerDataLabel.Text = Program.product.manufacturer;
                 ModelDataLabel.Text = Program.product.model;
                 RamTypeDataLAbel.Text = Program.product.RAM_type;
-                ramSizeDataLabel.Text = Program.product.RAM_size;
+                RamSizeDataLabel.Text = Program.product.RAM_size;
                 DisplayDataLabel.Text = Program.product.displaytype;
                 ScreenSizeDataLabel.Text = Program.product.screensize;
                 ResolutionDataLabel.Text = Program.product.resolution;
@@ -138,6 +138,16 @@ namespace DollarCompany
         {
             this.Hide();
             Program.orderForm.Show();
+        }
+
+        private void fileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RamSizeDataLabel_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

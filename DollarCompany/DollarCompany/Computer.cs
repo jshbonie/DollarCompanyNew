@@ -43,7 +43,7 @@ namespace DollarCompany
     public class Computer
     {
         public int productID { get; set; }
-        public int cost { get; set; }
+        public decimal cost { get; set; }
         public string manufacturer { get; set; }
         public string model { get; set; }
         public string RAM_type { get; set; }

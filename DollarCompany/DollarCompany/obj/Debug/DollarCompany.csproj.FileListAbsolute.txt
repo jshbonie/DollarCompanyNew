@@ -86,3 +86,10 @@ C:\Users\301009614\Desktop\New folder (2)\DollarCompany\DollarCompany\obj\Debug\
 C:\Users\301009614\Desktop\New folder (2)\DollarCompany\DollarCompany\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
 C:\Users\301009614\Desktop\New folder (2)\DollarCompany\DollarCompany\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
 C:\Users\301009614\Desktop\New folder (2)\DollarCompany\DollarCompany\obj\Debug\DollarCompany.OrderForm.resources
+C:\Users\301009614\Desktop\New folder\DollarCompany\DollarCompany\bin\Debug\EntityFramework.dll
+C:\Users\301009614\Desktop\New folder\DollarCompany\DollarCompany\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\301009614\Desktop\New folder\DollarCompany\DollarCompany\bin\Debug\EntityFramework.xml
+C:\Users\301009614\Desktop\New folder\DollarCompany\DollarCompany\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\301009614\Desktop\New folder\DollarCompany\DollarCompany\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\301009614\Desktop\New folder\DollarCompany\DollarCompany\obj\Debug\DollarCompany.OrderForm.resources
+C:\Users\301009614\Desktop\New folder\DollarCompany\DollarCompany\obj\Debug\DollarCompany.csproj.CopyComplete

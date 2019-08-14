@@ -36,77 +36,77 @@
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.backToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.backToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ProductPrintForm = new Microsoft.VisualBasic.PowerPacks.Printing.PrintForm(this.components);
             this.CancelButton = new System.Windows.Forms.Button();
             this.ProductIDDataLabel = new System.Windows.Forms.TextBox();
             this.ProductIDLabel = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.CostDataLabel = new System.Windows.Forms.TextBox();
-            this.Costlabel = new System.Windows.Forms.Label();
-            this.ModelDataLabel = new System.Windows.Forms.TextBox();
-            this.ModelLabel = new System.Windows.Forms.Label();
-            this.RamTypeDataLabel = new System.Windows.Forms.TextBox();
-            this.RamTypeLabel = new System.Windows.Forms.Label();
-            this.DisplayDataLabel = new System.Windows.Forms.TextBox();
-            this.DisplayTypeLabel = new System.Windows.Forms.Label();
-            this.CpuClassDataLabel = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.ScreenSizeDataLabel = new System.Windows.Forms.TextBox();
-            this.CPUBrandDataLabel = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.CPUSPeedDataLabel = new System.Windows.Forms.TextBox();
-            this.CPUSpeedLabel = new System.Windows.Forms.Label();
-            this.HDDSpeedDataLabel = new System.Windows.Forms.TextBox();
-            this.OSDataLabel = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.AudioTypeDataLabel = new System.Windows.Forms.TextBox();
-            this.CPUNumberDataLabel = new System.Windows.Forms.TextBox();
-            this.AudioTypeLabel = new System.Windows.Forms.Label();
-            this.PlatformDataLabel = new System.Windows.Forms.TextBox();
-            this.GPUTypeDataLabel = new System.Windows.Forms.TextBox();
-            this.C = new System.Windows.Forms.Label();
-            this.LANDataLabel = new System.Windows.Forms.TextBox();
-            this.Gpu = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.LANLabel = new System.Windows.Forms.Label();
-            this.WeightDataLabel = new System.Windows.Forms.TextBox();
-            this.WidthDataLabel = new System.Windows.Forms.TextBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.WebcamDataLabel = new System.Windows.Forms.TextBox();
-            this.Web = new System.Windows.Forms.Label();
-            this.HeightDataLabel = new System.Windows.Forms.TextBox();
-            this.MoustDataLabel = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
             this.label21 = new System.Windows.Forms.Label();
-            this.ManufacturerDataLabel = new System.Windows.Forms.TextBox();
-            this.ConditionDataLabel = new System.Windows.Forms.TextBox();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.HDDSizeDataLabel = new System.Windows.Forms.TextBox();
-            this.PriceDataLabel = new System.Windows.Forms.TextBox();
-            this.ResolutionDataLabel = new System.Windows.Forms.TextBox();
-            this.OpticalDriveDataLabel = new System.Windows.Forms.TextBox();
-            this.SalesTaxDataLabel = new System.Windows.Forms.TextBox();
-            this.ManufacturerLabel = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.CPUTypeDataLabel = new System.Windows.Forms.TextBox();
-            this.WIFIDataLabel = new System.Windows.Forms.TextBox();
-            this.TotalDataLabel = new System.Windows.Forms.TextBox();
-            this.ResolutionLabel = new System.Windows.Forms.Label();
-            this.OpticalDriveLabel = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.RAMSizeLabel = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
+            this.LANLabel = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.RAMSizeLabel = new System.Windows.Forms.Label();
+            this.RamTypeLabel = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.OpticalDriveLabel = new System.Windows.Forms.Label();
+            this.Gpu = new System.Windows.Forms.Label();
+            this.ResolutionLabel = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.condDataLabel = new System.Windows.Forms.TextBox();
+            this.WIFIDataLabel = new System.Windows.Forms.TextBox();
+            this.LANDataLabel = new System.Windows.Forms.TextBox();
+            this.CPUTypeDataLabel = new System.Windows.Forms.TextBox();
+            this.CPUBrandDataLabel = new System.Windows.Forms.TextBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.C = new System.Windows.Forms.Label();
+            this.ManufacturerLabel = new System.Windows.Forms.Label();
+            this.Costlabel = new System.Windows.Forms.Label();
+            this.OpticalDriveDataLabel = new System.Windows.Forms.TextBox();
+            this.MoustDataLabel = new System.Windows.Forms.TextBox();
+            this.ResolutionDataLabel = new System.Windows.Forms.TextBox();
+            this.GPUTypeDataLabel = new System.Windows.Forms.TextBox();
+            this.ScreenSizeDataLabel = new System.Windows.Forms.TextBox();
+            this.HDDSizeDataLabel = new System.Windows.Forms.TextBox();
+            this.HeightDataLabel = new System.Windows.Forms.TextBox();
+            this.RamSizeDataLabel = new System.Windows.Forms.TextBox();
+            this.PlatformDataLabel = new System.Windows.Forms.TextBox();
+            this.RamTypeDataLabel = new System.Windows.Forms.TextBox();
+            this.Web = new System.Windows.Forms.Label();
+            this.AudioTypeLabel = new System.Windows.Forms.Label();
+            this.ConditionDataLabel = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.ManufacturerDataLabel = new System.Windows.Forms.TextBox();
+            this.CPUNumberDataLabel = new System.Windows.Forms.TextBox();
+            this.CostDataLabel = new System.Windows.Forms.TextBox();
+            this.WebcamDataLabel = new System.Windows.Forms.TextBox();
+            this.AudioTypeDataLabel = new System.Windows.Forms.TextBox();
+            this.CpuClassDataLabel = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.ModelLabel = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.WidthDataLabel = new System.Windows.Forms.TextBox();
+            this.DisplayTypeLabel = new System.Windows.Forms.Label();
+            this.OSDataLabel = new System.Windows.Forms.TextBox();
+            this.WeightDataLabel = new System.Windows.Forms.TextBox();
+            this.ModelDataLabel = new System.Windows.Forms.TextBox();
+            this.HDDSpeedDataLabel = new System.Windows.Forms.TextBox();
+            this.DisplayDataLabel = new System.Windows.Forms.TextBox();
+            this.CPUSpeedLabel = new System.Windows.Forms.Label();
+            this.CPUSPeedDataLabel = new System.Windows.Forms.TextBox();
+            this.PriceDataLabel = new System.Windows.Forms.TextBox();
+            this.SalesTaxDataLabel = new System.Windows.Forms.TextBox();
+            this.TotalDataLabel = new System.Windows.Forms.TextBox();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label29 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -145,19 +145,19 @@
             this.printToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("printToolStripMenuItem.Image")));
             this.printToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.printToolStripMenuItem.Name = "printToolStripMenuItem";
-            this.printToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.printToolStripMenuItem.Size = new System.Drawing.Size(99, 22);
             this.printToolStripMenuItem.Text = "&Print";
             this.printToolStripMenuItem.Click += new System.EventHandler(this.printToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(177, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(96, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(99, 22);
             this.exitToolStripMenuItem.Text = "E&xit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -168,6 +168,13 @@
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
             this.editToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
             this.editToolStripMenuItem.Text = "&Edit";
+            // 
+            // backToolStripMenuItem
+            // 
+            this.backToolStripMenuItem.Name = "backToolStripMenuItem";
+            this.backToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.B)));
+            this.backToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
+            this.backToolStripMenuItem.Text = "&Back";
             // 
             // helpToolStripMenuItem
             // 
@@ -180,16 +187,9 @@
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
             this.aboutToolStripMenuItem.Text = "&About...";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
-            // 
-            // backToolStripMenuItem
-            // 
-            this.backToolStripMenuItem.Name = "backToolStripMenuItem";
-            this.backToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.B)));
-            this.backToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.backToolStripMenuItem.Text = "&Back";
             // 
             // ProductPrintForm
             // 
@@ -245,7 +245,7 @@
             this.groupBox1.Controls.Add(this.Gpu);
             this.groupBox1.Controls.Add(this.ResolutionLabel);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.textBox22);
+            this.groupBox1.Controls.Add(this.condDataLabel);
             this.groupBox1.Controls.Add(this.WIFIDataLabel);
             this.groupBox1.Controls.Add(this.LANDataLabel);
             this.groupBox1.Controls.Add(this.CPUTypeDataLabel);
@@ -261,7 +261,7 @@
             this.groupBox1.Controls.Add(this.ScreenSizeDataLabel);
             this.groupBox1.Controls.Add(this.HDDSizeDataLabel);
             this.groupBox1.Controls.Add(this.HeightDataLabel);
-            this.groupBox1.Controls.Add(this.textBox25);
+            this.groupBox1.Controls.Add(this.RamSizeDataLabel);
             this.groupBox1.Controls.Add(this.PlatformDataLabel);
             this.groupBox1.Controls.Add(this.RamTypeDataLabel);
             this.groupBox1.Controls.Add(this.Web);
@@ -299,265 +299,25 @@
             this.groupBox1.Text = "System Components";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // CostDataLabel
+            // label21
             // 
-            this.CostDataLabel.Location = new System.Drawing.Point(349, 32);
-            this.CostDataLabel.Name = "CostDataLabel";
-            this.CostDataLabel.Size = new System.Drawing.Size(141, 26);
-            this.CostDataLabel.TabIndex = 8;
-            this.CostDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label21.Location = new System.Drawing.Point(240, 394);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(103, 26);
+            this.label21.TabIndex = 9;
+            this.label21.Text = "Condition";
+            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Costlabel
+            // label31
             // 
-            this.Costlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.Costlabel.Location = new System.Drawing.Point(240, 31);
-            this.Costlabel.Name = "Costlabel";
-            this.Costlabel.Size = new System.Drawing.Size(103, 26);
-            this.Costlabel.TabIndex = 9;
-            this.Costlabel.Text = "Cost";
-            this.Costlabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // ModelDataLabel
-            // 
-            this.ModelDataLabel.Location = new System.Drawing.Point(102, 68);
-            this.ModelDataLabel.Name = "ModelDataLabel";
-            this.ModelDataLabel.Size = new System.Drawing.Size(132, 26);
-            this.ModelDataLabel.TabIndex = 8;
-            this.ModelDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // ModelLabel
-            // 
-            this.ModelLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.ModelLabel.Location = new System.Drawing.Point(6, 67);
-            this.ModelLabel.Name = "ModelLabel";
-            this.ModelLabel.Size = new System.Drawing.Size(90, 26);
-            this.ModelLabel.TabIndex = 9;
-            this.ModelLabel.Text = "Model";
-            this.ModelLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // RamTypeDataLabel
-            // 
-            this.RamTypeDataLabel.Location = new System.Drawing.Point(349, 68);
-            this.RamTypeDataLabel.Name = "RamTypeDataLabel";
-            this.RamTypeDataLabel.Size = new System.Drawing.Size(141, 26);
-            this.RamTypeDataLabel.TabIndex = 8;
-            this.RamTypeDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // RamTypeLabel
-            // 
-            this.RamTypeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.RamTypeLabel.Location = new System.Drawing.Point(240, 67);
-            this.RamTypeLabel.Name = "RamTypeLabel";
-            this.RamTypeLabel.Size = new System.Drawing.Size(103, 26);
-            this.RamTypeLabel.TabIndex = 9;
-            this.RamTypeLabel.Text = "RAM Type";
-            this.RamTypeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // DisplayDataLabel
-            // 
-            this.DisplayDataLabel.Location = new System.Drawing.Point(102, 105);
-            this.DisplayDataLabel.Name = "DisplayDataLabel";
-            this.DisplayDataLabel.Size = new System.Drawing.Size(132, 26);
-            this.DisplayDataLabel.TabIndex = 8;
-            this.DisplayDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // DisplayTypeLabel
-            // 
-            this.DisplayTypeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.DisplayTypeLabel.Location = new System.Drawing.Point(6, 104);
-            this.DisplayTypeLabel.Name = "DisplayTypeLabel";
-            this.DisplayTypeLabel.Size = new System.Drawing.Size(90, 26);
-            this.DisplayTypeLabel.TabIndex = 9;
-            this.DisplayTypeLabel.Text = "Display Type";
-            this.DisplayTypeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // CpuClassDataLabel
-            // 
-            this.CpuClassDataLabel.Location = new System.Drawing.Point(102, 141);
-            this.CpuClassDataLabel.Name = "CpuClassDataLabel";
-            this.CpuClassDataLabel.Size = new System.Drawing.Size(132, 26);
-            this.CpuClassDataLabel.TabIndex = 8;
-            this.CpuClassDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // label5
-            // 
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label5.Location = new System.Drawing.Point(6, 140);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(90, 26);
-            this.label5.TabIndex = 9;
-            this.label5.Text = "CPU Class";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // ScreenSizeDataLabel
-            // 
-            this.ScreenSizeDataLabel.Location = new System.Drawing.Point(349, 105);
-            this.ScreenSizeDataLabel.Name = "ScreenSizeDataLabel";
-            this.ScreenSizeDataLabel.Size = new System.Drawing.Size(141, 26);
-            this.ScreenSizeDataLabel.TabIndex = 8;
-            this.ScreenSizeDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // CPUBrandDataLabel
-            // 
-            this.CPUBrandDataLabel.Location = new System.Drawing.Point(349, 141);
-            this.CPUBrandDataLabel.Name = "CPUBrandDataLabel";
-            this.CPUBrandDataLabel.Size = new System.Drawing.Size(141, 26);
-            this.CPUBrandDataLabel.TabIndex = 8;
-            this.CPUBrandDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // label6
-            // 
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label6.Location = new System.Drawing.Point(240, 104);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(103, 26);
-            this.label6.TabIndex = 9;
-            this.label6.Text = "Screen Size";
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label7
-            // 
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label7.Location = new System.Drawing.Point(240, 140);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(103, 26);
-            this.label7.TabIndex = 9;
-            this.label7.Text = "CPU Brand";
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // CPUSPeedDataLabel
-            // 
-            this.CPUSPeedDataLabel.Location = new System.Drawing.Point(102, 177);
-            this.CPUSPeedDataLabel.Name = "CPUSPeedDataLabel";
-            this.CPUSPeedDataLabel.Size = new System.Drawing.Size(132, 26);
-            this.CPUSPeedDataLabel.TabIndex = 8;
-            this.CPUSPeedDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // CPUSpeedLabel
-            // 
-            this.CPUSpeedLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.CPUSpeedLabel.Location = new System.Drawing.Point(6, 176);
-            this.CPUSpeedLabel.Name = "CPUSpeedLabel";
-            this.CPUSpeedLabel.Size = new System.Drawing.Size(90, 26);
-            this.CPUSpeedLabel.TabIndex = 9;
-            this.CPUSpeedLabel.Text = "CPU Speed";
-            this.CPUSpeedLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // HDDSpeedDataLabel
-            // 
-            this.HDDSpeedDataLabel.Location = new System.Drawing.Point(102, 250);
-            this.HDDSpeedDataLabel.Name = "HDDSpeedDataLabel";
-            this.HDDSpeedDataLabel.Size = new System.Drawing.Size(132, 26);
-            this.HDDSpeedDataLabel.TabIndex = 8;
-            this.HDDSpeedDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // OSDataLabel
-            // 
-            this.OSDataLabel.Location = new System.Drawing.Point(102, 213);
-            this.OSDataLabel.Name = "OSDataLabel";
-            this.OSDataLabel.Size = new System.Drawing.Size(132, 26);
-            this.OSDataLabel.TabIndex = 8;
-            this.OSDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // label9
-            // 
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label9.Location = new System.Drawing.Point(6, 249);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(90, 26);
-            this.label9.TabIndex = 9;
-            this.label9.Text = "HDD Speed";
-            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label10
-            // 
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label10.Location = new System.Drawing.Point(6, 212);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(90, 26);
-            this.label10.TabIndex = 9;
-            this.label10.Text = "OS";
-            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // AudioTypeDataLabel
-            // 
-            this.AudioTypeDataLabel.Location = new System.Drawing.Point(102, 286);
-            this.AudioTypeDataLabel.Name = "AudioTypeDataLabel";
-            this.AudioTypeDataLabel.Size = new System.Drawing.Size(132, 26);
-            this.AudioTypeDataLabel.TabIndex = 8;
-            this.AudioTypeDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // CPUNumberDataLabel
-            // 
-            this.CPUNumberDataLabel.Location = new System.Drawing.Point(349, 177);
-            this.CPUNumberDataLabel.Name = "CPUNumberDataLabel";
-            this.CPUNumberDataLabel.Size = new System.Drawing.Size(141, 26);
-            this.CPUNumberDataLabel.TabIndex = 8;
-            this.CPUNumberDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // AudioTypeLabel
-            // 
-            this.AudioTypeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.AudioTypeLabel.Location = new System.Drawing.Point(6, 285);
-            this.AudioTypeLabel.Name = "AudioTypeLabel";
-            this.AudioTypeLabel.Size = new System.Drawing.Size(90, 26);
-            this.AudioTypeLabel.TabIndex = 9;
-            this.AudioTypeLabel.Text = "Audio Type";
-            this.AudioTypeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // PlatformDataLabel
-            // 
-            this.PlatformDataLabel.Location = new System.Drawing.Point(349, 213);
-            this.PlatformDataLabel.Name = "PlatformDataLabel";
-            this.PlatformDataLabel.Size = new System.Drawing.Size(141, 26);
-            this.PlatformDataLabel.TabIndex = 8;
-            this.PlatformDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // GPUTypeDataLabel
-            // 
-            this.GPUTypeDataLabel.Location = new System.Drawing.Point(349, 250);
-            this.GPUTypeDataLabel.Name = "GPUTypeDataLabel";
-            this.GPUTypeDataLabel.Size = new System.Drawing.Size(141, 26);
-            this.GPUTypeDataLabel.TabIndex = 8;
-            this.GPUTypeDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // C
-            // 
-            this.C.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.C.Location = new System.Drawing.Point(240, 176);
-            this.C.Name = "C";
-            this.C.Size = new System.Drawing.Size(103, 26);
-            this.C.TabIndex = 9;
-            this.C.Text = "CPU Number";
-            this.C.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // LANDataLabel
-            // 
-            this.LANDataLabel.Location = new System.Drawing.Point(349, 286);
-            this.LANDataLabel.Name = "LANDataLabel";
-            this.LANDataLabel.Size = new System.Drawing.Size(141, 26);
-            this.LANDataLabel.TabIndex = 8;
-            this.LANDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // Gpu
-            // 
-            this.Gpu.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.Gpu.Location = new System.Drawing.Point(240, 249);
-            this.Gpu.Name = "Gpu";
-            this.Gpu.Size = new System.Drawing.Size(103, 26);
-            this.Gpu.TabIndex = 9;
-            this.Gpu.Text = "GPU Type";
-            this.Gpu.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label14
-            // 
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label14.Location = new System.Drawing.Point(240, 212);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(103, 26);
-            this.label14.TabIndex = 9;
-            this.label14.Text = "Platform";
-            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label31.Location = new System.Drawing.Point(496, 286);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(109, 26);
+            this.label31.TabIndex = 9;
+            this.label31.Text = "WIFI";
+            this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // LANLabel
             // 
@@ -569,93 +329,25 @@
             this.LANLabel.Text = "LAN";
             this.LANLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // WeightDataLabel
+            // label30
             // 
-            this.WeightDataLabel.Location = new System.Drawing.Point(102, 359);
-            this.WeightDataLabel.Name = "WeightDataLabel";
-            this.WeightDataLabel.Size = new System.Drawing.Size(132, 26);
-            this.WeightDataLabel.TabIndex = 8;
-            this.WeightDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label30.Location = new System.Drawing.Point(496, 141);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(109, 26);
+            this.label30.TabIndex = 9;
+            this.label30.Text = "CPU Type";
+            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // WidthDataLabel
+            // label7
             // 
-            this.WidthDataLabel.Location = new System.Drawing.Point(102, 322);
-            this.WidthDataLabel.Name = "WidthDataLabel";
-            this.WidthDataLabel.Size = new System.Drawing.Size(132, 26);
-            this.WidthDataLabel.TabIndex = 8;
-            this.WidthDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // label16
-            // 
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label16.Location = new System.Drawing.Point(6, 358);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(90, 26);
-            this.label16.TabIndex = 9;
-            this.label16.Text = "Weight";
-            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label17
-            // 
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label17.Location = new System.Drawing.Point(6, 321);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(90, 26);
-            this.label17.TabIndex = 9;
-            this.label17.Text = "Width";
-            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // WebcamDataLabel
-            // 
-            this.WebcamDataLabel.Location = new System.Drawing.Point(102, 395);
-            this.WebcamDataLabel.Name = "WebcamDataLabel";
-            this.WebcamDataLabel.Size = new System.Drawing.Size(132, 26);
-            this.WebcamDataLabel.TabIndex = 8;
-            this.WebcamDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // Web
-            // 
-            this.Web.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.Web.Location = new System.Drawing.Point(6, 394);
-            this.Web.Name = "Web";
-            this.Web.Size = new System.Drawing.Size(90, 26);
-            this.Web.TabIndex = 9;
-            this.Web.Text = "Webcam";
-            this.Web.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // HeightDataLabel
-            // 
-            this.HeightDataLabel.Location = new System.Drawing.Point(349, 322);
-            this.HeightDataLabel.Name = "HeightDataLabel";
-            this.HeightDataLabel.Size = new System.Drawing.Size(141, 26);
-            this.HeightDataLabel.TabIndex = 8;
-            this.HeightDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // MoustDataLabel
-            // 
-            this.MoustDataLabel.Location = new System.Drawing.Point(349, 359);
-            this.MoustDataLabel.Name = "MoustDataLabel";
-            this.MoustDataLabel.Size = new System.Drawing.Size(141, 26);
-            this.MoustDataLabel.TabIndex = 8;
-            this.MoustDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // textBox22
-            // 
-            this.textBox22.Location = new System.Drawing.Point(349, 395);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(141, 26);
-            this.textBox22.TabIndex = 8;
-            this.textBox22.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // label19
-            // 
-            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label19.Location = new System.Drawing.Point(240, 358);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(103, 26);
-            this.label19.TabIndex = 9;
-            this.label19.Text = "Moust Tyoe";
-            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label7.Location = new System.Drawing.Point(240, 140);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(103, 26);
+            this.label7.TabIndex = 9;
+            this.label7.Text = "CPU Brand";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label20
             // 
@@ -667,153 +359,25 @@
             this.label20.Text = "Height";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label21
+            // label28
             // 
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label21.Location = new System.Drawing.Point(240, 394);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(103, 26);
-            this.label21.TabIndex = 9;
-            this.label21.Text = "Condition";
-            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label28.Location = new System.Drawing.Point(496, 213);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(109, 26);
+            this.label28.TabIndex = 9;
+            this.label28.Text = "HDD Size";
+            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // ManufacturerDataLabel
+            // label14
             // 
-            this.ManufacturerDataLabel.Location = new System.Drawing.Point(611, 32);
-            this.ManufacturerDataLabel.Name = "ManufacturerDataLabel";
-            this.ManufacturerDataLabel.Size = new System.Drawing.Size(138, 26);
-            this.ManufacturerDataLabel.TabIndex = 8;
-            this.ManufacturerDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // ConditionDataLabel
-            // 
-            this.ConditionDataLabel.Location = new System.Drawing.Point(611, 177);
-            this.ConditionDataLabel.Name = "ConditionDataLabel";
-            this.ConditionDataLabel.Size = new System.Drawing.Size(138, 26);
-            this.ConditionDataLabel.TabIndex = 8;
-            this.ConditionDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // textBox25
-            // 
-            this.textBox25.Location = new System.Drawing.Point(611, 68);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(138, 26);
-            this.textBox25.TabIndex = 8;
-            this.textBox25.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // HDDSizeDataLabel
-            // 
-            this.HDDSizeDataLabel.Location = new System.Drawing.Point(611, 213);
-            this.HDDSizeDataLabel.Name = "HDDSizeDataLabel";
-            this.HDDSizeDataLabel.Size = new System.Drawing.Size(138, 26);
-            this.HDDSizeDataLabel.TabIndex = 8;
-            this.HDDSizeDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // PriceDataLabel
-            // 
-            this.PriceDataLabel.Location = new System.Drawing.Point(341, 34);
-            this.PriceDataLabel.Name = "PriceDataLabel";
-            this.PriceDataLabel.Size = new System.Drawing.Size(138, 26);
-            this.PriceDataLabel.TabIndex = 8;
-            this.PriceDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // ResolutionDataLabel
-            // 
-            this.ResolutionDataLabel.Location = new System.Drawing.Point(611, 105);
-            this.ResolutionDataLabel.Name = "ResolutionDataLabel";
-            this.ResolutionDataLabel.Size = new System.Drawing.Size(138, 26);
-            this.ResolutionDataLabel.TabIndex = 8;
-            this.ResolutionDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // OpticalDriveDataLabel
-            // 
-            this.OpticalDriveDataLabel.Location = new System.Drawing.Point(611, 250);
-            this.OpticalDriveDataLabel.Name = "OpticalDriveDataLabel";
-            this.OpticalDriveDataLabel.Size = new System.Drawing.Size(138, 26);
-            this.OpticalDriveDataLabel.TabIndex = 8;
-            this.OpticalDriveDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // SalesTaxDataLabel
-            // 
-            this.SalesTaxDataLabel.Location = new System.Drawing.Point(341, 82);
-            this.SalesTaxDataLabel.Name = "SalesTaxDataLabel";
-            this.SalesTaxDataLabel.Size = new System.Drawing.Size(138, 26);
-            this.SalesTaxDataLabel.TabIndex = 8;
-            this.SalesTaxDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // ManufacturerLabel
-            // 
-            this.ManufacturerLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.ManufacturerLabel.Location = new System.Drawing.Point(496, 32);
-            this.ManufacturerLabel.Name = "ManufacturerLabel";
-            this.ManufacturerLabel.Size = new System.Drawing.Size(109, 26);
-            this.ManufacturerLabel.TabIndex = 9;
-            this.ManufacturerLabel.Text = "Manufacturer";
-            this.ManufacturerLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label23
-            // 
-            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label23.Location = new System.Drawing.Point(496, 177);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(109, 26);
-            this.label23.TabIndex = 9;
-            this.label23.Text = "Condition";
-            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // CPUTypeDataLabel
-            // 
-            this.CPUTypeDataLabel.Location = new System.Drawing.Point(611, 141);
-            this.CPUTypeDataLabel.Name = "CPUTypeDataLabel";
-            this.CPUTypeDataLabel.Size = new System.Drawing.Size(138, 26);
-            this.CPUTypeDataLabel.TabIndex = 8;
-            this.CPUTypeDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // WIFIDataLabel
-            // 
-            this.WIFIDataLabel.Location = new System.Drawing.Point(611, 286);
-            this.WIFIDataLabel.Name = "WIFIDataLabel";
-            this.WIFIDataLabel.Size = new System.Drawing.Size(138, 26);
-            this.WIFIDataLabel.TabIndex = 8;
-            this.WIFIDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // TotalDataLabel
-            // 
-            this.TotalDataLabel.Location = new System.Drawing.Point(341, 155);
-            this.TotalDataLabel.Name = "TotalDataLabel";
-            this.TotalDataLabel.Size = new System.Drawing.Size(138, 26);
-            this.TotalDataLabel.TabIndex = 8;
-            this.TotalDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // ResolutionLabel
-            // 
-            this.ResolutionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.ResolutionLabel.Location = new System.Drawing.Point(496, 105);
-            this.ResolutionLabel.Name = "ResolutionLabel";
-            this.ResolutionLabel.Size = new System.Drawing.Size(109, 26);
-            this.ResolutionLabel.TabIndex = 9;
-            this.ResolutionLabel.Text = "Resolution";
-            this.ResolutionLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // OpticalDriveLabel
-            // 
-            this.OpticalDriveLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.OpticalDriveLabel.Location = new System.Drawing.Point(496, 250);
-            this.OpticalDriveLabel.Name = "OpticalDriveLabel";
-            this.OpticalDriveLabel.Size = new System.Drawing.Size(109, 26);
-            this.OpticalDriveLabel.TabIndex = 9;
-            this.OpticalDriveLabel.Text = "Optical Drive";
-            this.OpticalDriveLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label26
-            // 
-            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label26.Location = new System.Drawing.Point(6, 82);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(109, 26);
-            this.label26.TabIndex = 9;
-            this.label26.Text = "Sales Tax (13%)";
-            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label14.Location = new System.Drawing.Point(240, 212);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(103, 26);
+            this.label14.TabIndex = 9;
+            this.label14.Text = "Platform";
+            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // RAMSizeLabel
             // 
@@ -825,15 +389,471 @@
             this.RAMSizeLabel.Text = "RAM Size";
             this.RAMSizeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label28
+            // RamTypeLabel
             // 
-            this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label28.Location = new System.Drawing.Point(496, 213);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(109, 26);
-            this.label28.TabIndex = 9;
-            this.label28.Text = "HDD Size";
-            this.label28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.RamTypeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.RamTypeLabel.Location = new System.Drawing.Point(240, 67);
+            this.RamTypeLabel.Name = "RamTypeLabel";
+            this.RamTypeLabel.Size = new System.Drawing.Size(103, 26);
+            this.RamTypeLabel.TabIndex = 9;
+            this.RamTypeLabel.Text = "RAM Type";
+            this.RamTypeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label19
+            // 
+            this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label19.Location = new System.Drawing.Point(240, 358);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(103, 26);
+            this.label19.TabIndex = 9;
+            this.label19.Text = "Moust Tyoe";
+            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // OpticalDriveLabel
+            // 
+            this.OpticalDriveLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.OpticalDriveLabel.Location = new System.Drawing.Point(496, 250);
+            this.OpticalDriveLabel.Name = "OpticalDriveLabel";
+            this.OpticalDriveLabel.Size = new System.Drawing.Size(109, 26);
+            this.OpticalDriveLabel.TabIndex = 9;
+            this.OpticalDriveLabel.Text = "Optical Drive";
+            this.OpticalDriveLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Gpu
+            // 
+            this.Gpu.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.Gpu.Location = new System.Drawing.Point(240, 249);
+            this.Gpu.Name = "Gpu";
+            this.Gpu.Size = new System.Drawing.Size(103, 26);
+            this.Gpu.TabIndex = 9;
+            this.Gpu.Text = "GPU Type";
+            this.Gpu.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // ResolutionLabel
+            // 
+            this.ResolutionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.ResolutionLabel.Location = new System.Drawing.Point(496, 105);
+            this.ResolutionLabel.Name = "ResolutionLabel";
+            this.ResolutionLabel.Size = new System.Drawing.Size(109, 26);
+            this.ResolutionLabel.TabIndex = 9;
+            this.ResolutionLabel.Text = "Resolution";
+            this.ResolutionLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label6
+            // 
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label6.Location = new System.Drawing.Point(240, 104);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(103, 26);
+            this.label6.TabIndex = 9;
+            this.label6.Text = "Screen Size";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // condDataLabel
+            // 
+            this.condDataLabel.Location = new System.Drawing.Point(349, 395);
+            this.condDataLabel.Name = "condDataLabel";
+            this.condDataLabel.Size = new System.Drawing.Size(141, 26);
+            this.condDataLabel.TabIndex = 8;
+            this.condDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // WIFIDataLabel
+            // 
+            this.WIFIDataLabel.Location = new System.Drawing.Point(611, 286);
+            this.WIFIDataLabel.Name = "WIFIDataLabel";
+            this.WIFIDataLabel.Size = new System.Drawing.Size(138, 26);
+            this.WIFIDataLabel.TabIndex = 8;
+            this.WIFIDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // LANDataLabel
+            // 
+            this.LANDataLabel.Location = new System.Drawing.Point(349, 286);
+            this.LANDataLabel.Name = "LANDataLabel";
+            this.LANDataLabel.Size = new System.Drawing.Size(141, 26);
+            this.LANDataLabel.TabIndex = 8;
+            this.LANDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // CPUTypeDataLabel
+            // 
+            this.CPUTypeDataLabel.Location = new System.Drawing.Point(611, 141);
+            this.CPUTypeDataLabel.Name = "CPUTypeDataLabel";
+            this.CPUTypeDataLabel.Size = new System.Drawing.Size(138, 26);
+            this.CPUTypeDataLabel.TabIndex = 8;
+            this.CPUTypeDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // CPUBrandDataLabel
+            // 
+            this.CPUBrandDataLabel.Location = new System.Drawing.Point(349, 141);
+            this.CPUBrandDataLabel.Name = "CPUBrandDataLabel";
+            this.CPUBrandDataLabel.Size = new System.Drawing.Size(141, 26);
+            this.CPUBrandDataLabel.TabIndex = 8;
+            this.CPUBrandDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // label23
+            // 
+            this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label23.Location = new System.Drawing.Point(496, 177);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(109, 26);
+            this.label23.TabIndex = 9;
+            this.label23.Text = "Condition";
+            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // C
+            // 
+            this.C.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.C.Location = new System.Drawing.Point(240, 176);
+            this.C.Name = "C";
+            this.C.Size = new System.Drawing.Size(103, 26);
+            this.C.TabIndex = 9;
+            this.C.Text = "CPU Number";
+            this.C.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // ManufacturerLabel
+            // 
+            this.ManufacturerLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.ManufacturerLabel.Location = new System.Drawing.Point(496, 32);
+            this.ManufacturerLabel.Name = "ManufacturerLabel";
+            this.ManufacturerLabel.Size = new System.Drawing.Size(109, 26);
+            this.ManufacturerLabel.TabIndex = 9;
+            this.ManufacturerLabel.Text = "Manufacturer";
+            this.ManufacturerLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Costlabel
+            // 
+            this.Costlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.Costlabel.Location = new System.Drawing.Point(240, 31);
+            this.Costlabel.Name = "Costlabel";
+            this.Costlabel.Size = new System.Drawing.Size(103, 26);
+            this.Costlabel.TabIndex = 9;
+            this.Costlabel.Text = "Cost";
+            this.Costlabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // OpticalDriveDataLabel
+            // 
+            this.OpticalDriveDataLabel.Location = new System.Drawing.Point(611, 250);
+            this.OpticalDriveDataLabel.Name = "OpticalDriveDataLabel";
+            this.OpticalDriveDataLabel.Size = new System.Drawing.Size(138, 26);
+            this.OpticalDriveDataLabel.TabIndex = 8;
+            this.OpticalDriveDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // MoustDataLabel
+            // 
+            this.MoustDataLabel.Location = new System.Drawing.Point(349, 359);
+            this.MoustDataLabel.Name = "MoustDataLabel";
+            this.MoustDataLabel.Size = new System.Drawing.Size(141, 26);
+            this.MoustDataLabel.TabIndex = 8;
+            this.MoustDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // ResolutionDataLabel
+            // 
+            this.ResolutionDataLabel.Location = new System.Drawing.Point(611, 105);
+            this.ResolutionDataLabel.Name = "ResolutionDataLabel";
+            this.ResolutionDataLabel.Size = new System.Drawing.Size(138, 26);
+            this.ResolutionDataLabel.TabIndex = 8;
+            this.ResolutionDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // GPUTypeDataLabel
+            // 
+            this.GPUTypeDataLabel.Location = new System.Drawing.Point(349, 250);
+            this.GPUTypeDataLabel.Name = "GPUTypeDataLabel";
+            this.GPUTypeDataLabel.Size = new System.Drawing.Size(141, 26);
+            this.GPUTypeDataLabel.TabIndex = 8;
+            this.GPUTypeDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // ScreenSizeDataLabel
+            // 
+            this.ScreenSizeDataLabel.Location = new System.Drawing.Point(349, 105);
+            this.ScreenSizeDataLabel.Name = "ScreenSizeDataLabel";
+            this.ScreenSizeDataLabel.Size = new System.Drawing.Size(141, 26);
+            this.ScreenSizeDataLabel.TabIndex = 8;
+            this.ScreenSizeDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // HDDSizeDataLabel
+            // 
+            this.HDDSizeDataLabel.Location = new System.Drawing.Point(611, 213);
+            this.HDDSizeDataLabel.Name = "HDDSizeDataLabel";
+            this.HDDSizeDataLabel.Size = new System.Drawing.Size(138, 26);
+            this.HDDSizeDataLabel.TabIndex = 8;
+            this.HDDSizeDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // HeightDataLabel
+            // 
+            this.HeightDataLabel.Location = new System.Drawing.Point(349, 322);
+            this.HeightDataLabel.Name = "HeightDataLabel";
+            this.HeightDataLabel.Size = new System.Drawing.Size(141, 26);
+            this.HeightDataLabel.TabIndex = 8;
+            this.HeightDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // RamSizeDataLabel
+            // 
+            this.RamSizeDataLabel.Location = new System.Drawing.Point(611, 68);
+            this.RamSizeDataLabel.Name = "RamSizeDataLabel";
+            this.RamSizeDataLabel.Size = new System.Drawing.Size(138, 26);
+            this.RamSizeDataLabel.TabIndex = 8;
+            this.RamSizeDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // PlatformDataLabel
+            // 
+            this.PlatformDataLabel.Location = new System.Drawing.Point(349, 213);
+            this.PlatformDataLabel.Name = "PlatformDataLabel";
+            this.PlatformDataLabel.Size = new System.Drawing.Size(141, 26);
+            this.PlatformDataLabel.TabIndex = 8;
+            this.PlatformDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // RamTypeDataLabel
+            // 
+            this.RamTypeDataLabel.Location = new System.Drawing.Point(349, 68);
+            this.RamTypeDataLabel.Name = "RamTypeDataLabel";
+            this.RamTypeDataLabel.Size = new System.Drawing.Size(141, 26);
+            this.RamTypeDataLabel.TabIndex = 8;
+            this.RamTypeDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // Web
+            // 
+            this.Web.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.Web.Location = new System.Drawing.Point(6, 394);
+            this.Web.Name = "Web";
+            this.Web.Size = new System.Drawing.Size(90, 26);
+            this.Web.TabIndex = 9;
+            this.Web.Text = "Webcam";
+            this.Web.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // AudioTypeLabel
+            // 
+            this.AudioTypeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.AudioTypeLabel.Location = new System.Drawing.Point(6, 285);
+            this.AudioTypeLabel.Name = "AudioTypeLabel";
+            this.AudioTypeLabel.Size = new System.Drawing.Size(90, 26);
+            this.AudioTypeLabel.TabIndex = 9;
+            this.AudioTypeLabel.Text = "Audio Type";
+            this.AudioTypeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // ConditionDataLabel
+            // 
+            this.ConditionDataLabel.Location = new System.Drawing.Point(611, 177);
+            this.ConditionDataLabel.Name = "ConditionDataLabel";
+            this.ConditionDataLabel.Size = new System.Drawing.Size(138, 26);
+            this.ConditionDataLabel.TabIndex = 8;
+            this.ConditionDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // label5
+            // 
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label5.Location = new System.Drawing.Point(6, 140);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(90, 26);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "CPU Class";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // ManufacturerDataLabel
+            // 
+            this.ManufacturerDataLabel.Location = new System.Drawing.Point(611, 32);
+            this.ManufacturerDataLabel.Name = "ManufacturerDataLabel";
+            this.ManufacturerDataLabel.Size = new System.Drawing.Size(138, 26);
+            this.ManufacturerDataLabel.TabIndex = 8;
+            this.ManufacturerDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // CPUNumberDataLabel
+            // 
+            this.CPUNumberDataLabel.Location = new System.Drawing.Point(349, 177);
+            this.CPUNumberDataLabel.Name = "CPUNumberDataLabel";
+            this.CPUNumberDataLabel.Size = new System.Drawing.Size(141, 26);
+            this.CPUNumberDataLabel.TabIndex = 8;
+            this.CPUNumberDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // CostDataLabel
+            // 
+            this.CostDataLabel.Location = new System.Drawing.Point(349, 32);
+            this.CostDataLabel.Name = "CostDataLabel";
+            this.CostDataLabel.Size = new System.Drawing.Size(141, 26);
+            this.CostDataLabel.TabIndex = 8;
+            this.CostDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // WebcamDataLabel
+            // 
+            this.WebcamDataLabel.Location = new System.Drawing.Point(102, 395);
+            this.WebcamDataLabel.Name = "WebcamDataLabel";
+            this.WebcamDataLabel.Size = new System.Drawing.Size(132, 26);
+            this.WebcamDataLabel.TabIndex = 8;
+            this.WebcamDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // AudioTypeDataLabel
+            // 
+            this.AudioTypeDataLabel.Location = new System.Drawing.Point(102, 286);
+            this.AudioTypeDataLabel.Name = "AudioTypeDataLabel";
+            this.AudioTypeDataLabel.Size = new System.Drawing.Size(132, 26);
+            this.AudioTypeDataLabel.TabIndex = 8;
+            this.AudioTypeDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // CpuClassDataLabel
+            // 
+            this.CpuClassDataLabel.Location = new System.Drawing.Point(102, 141);
+            this.CpuClassDataLabel.Name = "CpuClassDataLabel";
+            this.CpuClassDataLabel.Size = new System.Drawing.Size(132, 26);
+            this.CpuClassDataLabel.TabIndex = 8;
+            this.CpuClassDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // label17
+            // 
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label17.Location = new System.Drawing.Point(6, 321);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(90, 26);
+            this.label17.TabIndex = 9;
+            this.label17.Text = "Width";
+            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label10
+            // 
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label10.Location = new System.Drawing.Point(6, 212);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(90, 26);
+            this.label10.TabIndex = 9;
+            this.label10.Text = "OS";
+            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label16
+            // 
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label16.Location = new System.Drawing.Point(6, 358);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(90, 26);
+            this.label16.TabIndex = 9;
+            this.label16.Text = "Weight";
+            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // ModelLabel
+            // 
+            this.ModelLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.ModelLabel.Location = new System.Drawing.Point(6, 67);
+            this.ModelLabel.Name = "ModelLabel";
+            this.ModelLabel.Size = new System.Drawing.Size(90, 26);
+            this.ModelLabel.TabIndex = 9;
+            this.ModelLabel.Text = "Model";
+            this.ModelLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label9
+            // 
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label9.Location = new System.Drawing.Point(6, 249);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(90, 26);
+            this.label9.TabIndex = 9;
+            this.label9.Text = "HDD Speed";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // WidthDataLabel
+            // 
+            this.WidthDataLabel.Location = new System.Drawing.Point(102, 322);
+            this.WidthDataLabel.Name = "WidthDataLabel";
+            this.WidthDataLabel.Size = new System.Drawing.Size(132, 26);
+            this.WidthDataLabel.TabIndex = 8;
+            this.WidthDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // DisplayTypeLabel
+            // 
+            this.DisplayTypeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.DisplayTypeLabel.Location = new System.Drawing.Point(6, 104);
+            this.DisplayTypeLabel.Name = "DisplayTypeLabel";
+            this.DisplayTypeLabel.Size = new System.Drawing.Size(90, 26);
+            this.DisplayTypeLabel.TabIndex = 9;
+            this.DisplayTypeLabel.Text = "Display Type";
+            this.DisplayTypeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // OSDataLabel
+            // 
+            this.OSDataLabel.Location = new System.Drawing.Point(102, 213);
+            this.OSDataLabel.Name = "OSDataLabel";
+            this.OSDataLabel.Size = new System.Drawing.Size(132, 26);
+            this.OSDataLabel.TabIndex = 8;
+            this.OSDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // WeightDataLabel
+            // 
+            this.WeightDataLabel.Location = new System.Drawing.Point(102, 359);
+            this.WeightDataLabel.Name = "WeightDataLabel";
+            this.WeightDataLabel.Size = new System.Drawing.Size(132, 26);
+            this.WeightDataLabel.TabIndex = 8;
+            this.WeightDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // ModelDataLabel
+            // 
+            this.ModelDataLabel.Location = new System.Drawing.Point(102, 68);
+            this.ModelDataLabel.Name = "ModelDataLabel";
+            this.ModelDataLabel.Size = new System.Drawing.Size(132, 26);
+            this.ModelDataLabel.TabIndex = 8;
+            this.ModelDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // HDDSpeedDataLabel
+            // 
+            this.HDDSpeedDataLabel.Location = new System.Drawing.Point(102, 250);
+            this.HDDSpeedDataLabel.Name = "HDDSpeedDataLabel";
+            this.HDDSpeedDataLabel.Size = new System.Drawing.Size(132, 26);
+            this.HDDSpeedDataLabel.TabIndex = 8;
+            this.HDDSpeedDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // DisplayDataLabel
+            // 
+            this.DisplayDataLabel.Location = new System.Drawing.Point(102, 105);
+            this.DisplayDataLabel.Name = "DisplayDataLabel";
+            this.DisplayDataLabel.Size = new System.Drawing.Size(132, 26);
+            this.DisplayDataLabel.TabIndex = 8;
+            this.DisplayDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // CPUSpeedLabel
+            // 
+            this.CPUSpeedLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.CPUSpeedLabel.Location = new System.Drawing.Point(6, 176);
+            this.CPUSpeedLabel.Name = "CPUSpeedLabel";
+            this.CPUSpeedLabel.Size = new System.Drawing.Size(90, 26);
+            this.CPUSpeedLabel.TabIndex = 9;
+            this.CPUSpeedLabel.Text = "CPU Speed";
+            this.CPUSpeedLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // CPUSPeedDataLabel
+            // 
+            this.CPUSPeedDataLabel.Location = new System.Drawing.Point(102, 177);
+            this.CPUSPeedDataLabel.Name = "CPUSPeedDataLabel";
+            this.CPUSPeedDataLabel.Size = new System.Drawing.Size(132, 26);
+            this.CPUSPeedDataLabel.TabIndex = 8;
+            this.CPUSPeedDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // PriceDataLabel
+            // 
+            this.PriceDataLabel.Location = new System.Drawing.Point(341, 34);
+            this.PriceDataLabel.Name = "PriceDataLabel";
+            this.PriceDataLabel.Size = new System.Drawing.Size(138, 26);
+            this.PriceDataLabel.TabIndex = 8;
+            this.PriceDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // SalesTaxDataLabel
+            // 
+            this.SalesTaxDataLabel.Location = new System.Drawing.Point(341, 82);
+            this.SalesTaxDataLabel.Name = "SalesTaxDataLabel";
+            this.SalesTaxDataLabel.Size = new System.Drawing.Size(138, 26);
+            this.SalesTaxDataLabel.TabIndex = 8;
+            this.SalesTaxDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // TotalDataLabel
+            // 
+            this.TotalDataLabel.Location = new System.Drawing.Point(341, 155);
+            this.TotalDataLabel.Name = "TotalDataLabel";
+            this.TotalDataLabel.Size = new System.Drawing.Size(138, 26);
+            this.TotalDataLabel.TabIndex = 8;
+            this.TotalDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // label26
+            // 
+            this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.label26.Location = new System.Drawing.Point(6, 82);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(109, 26);
+            this.label26.TabIndex = 9;
+            this.label26.Text = "Sales Tax (13%)";
+            this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label29
             // 
@@ -844,26 +864,6 @@
             this.label29.TabIndex = 9;
             this.label29.Text = "Price";
             this.label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label30
-            // 
-            this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label30.Location = new System.Drawing.Point(496, 141);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(109, 26);
-            this.label30.TabIndex = 9;
-            this.label30.Text = "CPU Type";
-            this.label30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label31
-            // 
-            this.label31.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label31.Location = new System.Drawing.Point(496, 286);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(109, 26);
-            this.label31.TabIndex = 9;
-            this.label31.Text = "WIFI";
-            this.label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label32
             // 
@@ -941,6 +941,7 @@
             this.Name = "OrderForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "OrderForm";
+            this.Activated += new System.EventHandler(this.OrderForm_Activated);
             this.OrderFormMenuStrip.ResumeLayout(false);
             this.OrderFormMenuStrip.PerformLayout();
             this.groupBox1.ResumeLayout(false);
@@ -988,7 +989,7 @@
         private System.Windows.Forms.Label ResolutionLabel;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox TotalDataLabel;
-        private System.Windows.Forms.TextBox textBox22;
+        private System.Windows.Forms.TextBox condDataLabel;
         private System.Windows.Forms.TextBox WIFIDataLabel;
         private System.Windows.Forms.TextBox LANDataLabel;
         private System.Windows.Forms.TextBox CPUTypeDataLabel;
@@ -1006,7 +1007,7 @@
         private System.Windows.Forms.TextBox ScreenSizeDataLabel;
         private System.Windows.Forms.TextBox HDDSizeDataLabel;
         private System.Windows.Forms.TextBox HeightDataLabel;
-        private System.Windows.Forms.TextBox textBox25;
+        private System.Windows.Forms.TextBox RamSizeDataLabel;
         private System.Windows.Forms.TextBox PlatformDataLabel;
         private System.Windows.Forms.TextBox RamTypeDataLabel;
         private System.Windows.Forms.Label Web;

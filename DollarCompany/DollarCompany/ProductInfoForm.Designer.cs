@@ -42,7 +42,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.RamTypeDataLAbel = new System.Windows.Forms.Label();
             this.RamTypeLAbel = new System.Windows.Forms.Label();
-            this.ramSizeDataLabel = new System.Windows.Forms.Label();
             this.ramSizeLabel = new System.Windows.Forms.Label();
             this.WEBCAMEDataLabel = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -106,6 +105,7 @@
             this.label42 = new System.Windows.Forms.Label();
             this.WidthDataLabel = new System.Windows.Forms.Label();
             this.label44 = new System.Windows.Forms.Label();
+            this.RamSizeDataLabel = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -246,17 +246,6 @@
             this.RamTypeLAbel.TabIndex = 13;
             this.RamTypeLAbel.Text = "RAM Type";
             this.RamTypeLAbel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // ramSizeDataLabel
-            // 
-            this.ramSizeDataLabel.BackColor = System.Drawing.Color.White;
-            this.ramSizeDataLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ramSizeDataLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.ramSizeDataLabel.Location = new System.Drawing.Point(118, 279);
-            this.ramSizeDataLabel.Name = "ramSizeDataLabel";
-            this.ramSizeDataLabel.Size = new System.Drawing.Size(215, 21);
-            this.ramSizeDataLabel.TabIndex = 14;
-            this.ramSizeDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // ramSizeLabel
             // 
@@ -500,18 +489,19 @@
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "&File";
+            this.fileToolStripMenuItem.Click += new System.EventHandler(this.fileToolStripMenuItem_Click);
             // 
             // toolStripSeparator
             // 
             this.toolStripSeparator.Name = "toolStripSeparator";
-            this.toolStripSeparator.Size = new System.Drawing.Size(140, 6);
+            this.toolStripSeparator.Size = new System.Drawing.Size(177, 6);
             // 
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("saveToolStripMenuItem.Image")));
             this.saveToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.saveToolStripMenuItem.Text = "&Save";
             // 
             // printToolStripMenuItem
@@ -520,7 +510,7 @@
             this.printToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.printToolStripMenuItem.Name = "printToolStripMenuItem";
             this.printToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
-            this.printToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
+            this.printToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.printToolStripMenuItem.Text = "&Print";
             // 
             // printPreviewToolStripMenuItem
@@ -528,18 +518,18 @@
             this.printPreviewToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("printPreviewToolStripMenuItem.Image")));
             this.printPreviewToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.printPreviewToolStripMenuItem.Name = "printPreviewToolStripMenuItem";
-            this.printPreviewToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
+            this.printPreviewToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.printPreviewToolStripMenuItem.Text = "Print Pre&view";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(140, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(177, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.exitToolStripMenuItem.Text = "E&xit";
             // 
             // helpToolStripMenuItem
@@ -904,6 +894,18 @@
             this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label44.Click += new System.EventHandler(this.label44_Click);
             // 
+            // RamSizeDataLabel
+            // 
+            this.RamSizeDataLabel.BackColor = System.Drawing.Color.White;
+            this.RamSizeDataLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.RamSizeDataLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.RamSizeDataLabel.Location = new System.Drawing.Point(118, 279);
+            this.RamSizeDataLabel.Name = "RamSizeDataLabel";
+            this.RamSizeDataLabel.Size = new System.Drawing.Size(215, 21);
+            this.RamSizeDataLabel.TabIndex = 12;
+            this.RamSizeDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.RamSizeDataLabel.Click += new System.EventHandler(this.RamSizeDataLabel_Click);
+            // 
             // ProductInfoForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
@@ -962,8 +964,8 @@
             this.Controls.Add(this.label12);
             this.Controls.Add(this.WEBCAMEDataLabel);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.ramSizeDataLabel);
             this.Controls.Add(this.ramSizeLabel);
+            this.Controls.Add(this.RamSizeDataLabel);
             this.Controls.Add(this.RamTypeDataLAbel);
             this.Controls.Add(this.RamTypeLAbel);
             this.Controls.Add(this.ManufacturerDataLabel);
@@ -1009,7 +1011,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label RamTypeDataLAbel;
         private System.Windows.Forms.Label RamTypeLAbel;
-        private System.Windows.Forms.Label ramSizeDataLabel;
         private System.Windows.Forms.Label ramSizeLabel;
         private System.Windows.Forms.Label WEBCAMEDataLabel;
         private System.Windows.Forms.Label label10;
@@ -1073,5 +1074,6 @@
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.Label WidthDataLabel;
         private System.Windows.Forms.Label label44;
+        private System.Windows.Forms.Label RamSizeDataLabel;
     }
 }
