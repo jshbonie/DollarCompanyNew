@@ -20,13 +20,18 @@ namespace DollarCompany
         private void timer1_Tick(object sender, EventArgs e)
         {
             splashTimer.Enabled = false;
-            Program.selectForm.Show();
+            Program.startForm.Show();
             this.Hide();
         }
 
         private void SplashScreen_Load(object sender, EventArgs e)
         {
             splashTimer.Enabled = true;
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

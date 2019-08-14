@@ -93,3 +93,4 @@ C:\Users\301009614\Desktop\New folder\DollarCompany\DollarCompany\bin\Debug\Enti
 C:\Users\301009614\Desktop\New folder\DollarCompany\DollarCompany\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
 C:\Users\301009614\Desktop\New folder\DollarCompany\DollarCompany\obj\Debug\DollarCompany.OrderForm.resources
 C:\Users\301009614\Desktop\New folder\DollarCompany\DollarCompany\obj\Debug\DollarCompany.csproj.CopyComplete
+C:\Users\301009614\Desktop\New folder\DollarCompany\DollarCompany\obj\Debug\DollarCompany.StartForm.resources
