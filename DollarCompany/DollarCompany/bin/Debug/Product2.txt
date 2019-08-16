@@ -1,0 +1,31 @@
+9
+395.9700
+Lenovo 
+T61
+DDR2
+1GB
+WXGA anti-glare
+15.4" 
+1280 × 800
+Core 2 Duo
+Intel
+Dual-Core
+2GHz
+T7300
+Off-Lease
+Windows XP Pro 32-Bit
+Laptop
+80GB
+5400 RPM
+Intel Graphics Media Accelerator X3100
+CDROM Burner/DVD Player
+High-Definition Audio
+10/100/1000 Gigabit Ethernet LAN
+802.11a/b/g Wireless Networking
+14.1"
+1.4"
+10.0"
+5.9 lb
+TrackPoint
+6-Cell Lithium-ion
+None

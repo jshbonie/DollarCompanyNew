@@ -10,6 +10,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/// <summary>
+/// Student Name: Joshua Bonie
+/// Student Number: 301009614
+/// </summary>
 namespace DollarCompany
 {
     public partial class OrderForm : Form
@@ -33,25 +37,13 @@ namespace DollarCompany
             Application.Exit();
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+        
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Program.aboutForm.ShowDialog();
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void groupBox2_Enter(object sender, EventArgs e)
-        {
-
-        }
 
         private void OrderForm_Activated(object sender, EventArgs e)
         {
@@ -110,6 +102,17 @@ namespace DollarCompany
         {
             MessageBox.Show("Thank you very much for your purchase! " + "\n\nYour order will arrive in 7-10 business days. ", " Order Complete", MessageBoxButtons.OK);
             Application.Exit();
+        }
+
+        private void FinishButtonOrderForm_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Thank you for your pruchase!" + "\n\nThe order will arrive in 7-10 business days.","Order Complete", MessageBoxButtons.OK);
+        }
+
+        private void BackButtonOrderForm_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            Program.productInfoForm.Show();
         }
     }
 }

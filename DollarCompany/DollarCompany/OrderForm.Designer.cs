@@ -112,8 +112,8 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
             this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
-            this.backButtonOrderForm = new System.Windows.Forms.Button();
-            this.FinishOrderButton = new System.Windows.Forms.Button();
+            this.FinishButtonOrderForm = new System.Windows.Forms.Button();
+            this.BackButtonOrderForm = new System.Windows.Forms.Button();
             this.OrderFormMenuStrip.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -204,7 +204,7 @@
             // CancelButton
             // 
             this.CancelButton.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.CancelButton.Location = new System.Drawing.Point(1100, 518);
+            this.CancelButton.Location = new System.Drawing.Point(1136, 518);
             this.CancelButton.Name = "CancelButton";
             this.CancelButton.Size = new System.Drawing.Size(75, 31);
             this.CancelButton.TabIndex = 7;
@@ -216,9 +216,9 @@
             // 
             this.ProductIDDataLabel.Location = new System.Drawing.Point(102, 32);
             this.ProductIDDataLabel.Name = "ProductIDDataLabel";
+            this.ProductIDDataLabel.ReadOnly = true;
             this.ProductIDDataLabel.Size = new System.Drawing.Size(132, 26);
             this.ProductIDDataLabel.TabIndex = 8;
-            this.ProductIDDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // ProductIDLabel
             // 
@@ -235,8 +235,8 @@
             this.groupBox1.Controls.Add(this.label21);
             this.groupBox1.Controls.Add(this.label31);
             this.groupBox1.Controls.Add(this.LANLabel);
-            this.groupBox1.Controls.Add(this.backButtonOrderForm);
             this.groupBox1.Controls.Add(this.label30);
+            this.groupBox1.Controls.Add(this.BackButtonOrderForm);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label20);
             this.groupBox1.Controls.Add(this.label28);
@@ -300,7 +300,6 @@
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "System Components";
-            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // label21
             // 
@@ -456,41 +455,41 @@
             // 
             this.condDataLabel.Location = new System.Drawing.Point(349, 395);
             this.condDataLabel.Name = "condDataLabel";
+            this.condDataLabel.ReadOnly = true;
             this.condDataLabel.Size = new System.Drawing.Size(141, 26);
             this.condDataLabel.TabIndex = 8;
-            this.condDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // WIFIDataLabel
             // 
             this.WIFIDataLabel.Location = new System.Drawing.Point(611, 286);
             this.WIFIDataLabel.Name = "WIFIDataLabel";
+            this.WIFIDataLabel.ReadOnly = true;
             this.WIFIDataLabel.Size = new System.Drawing.Size(138, 26);
             this.WIFIDataLabel.TabIndex = 8;
-            this.WIFIDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // LANDataLabel
             // 
             this.LANDataLabel.Location = new System.Drawing.Point(349, 286);
             this.LANDataLabel.Name = "LANDataLabel";
+            this.LANDataLabel.ReadOnly = true;
             this.LANDataLabel.Size = new System.Drawing.Size(141, 26);
             this.LANDataLabel.TabIndex = 8;
-            this.LANDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // CPUTypeDataLabel
             // 
             this.CPUTypeDataLabel.Location = new System.Drawing.Point(611, 141);
             this.CPUTypeDataLabel.Name = "CPUTypeDataLabel";
+            this.CPUTypeDataLabel.ReadOnly = true;
             this.CPUTypeDataLabel.Size = new System.Drawing.Size(138, 26);
             this.CPUTypeDataLabel.TabIndex = 8;
-            this.CPUTypeDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // CPUBrandDataLabel
             // 
             this.CPUBrandDataLabel.Location = new System.Drawing.Point(349, 141);
             this.CPUBrandDataLabel.Name = "CPUBrandDataLabel";
+            this.CPUBrandDataLabel.ReadOnly = true;
             this.CPUBrandDataLabel.Size = new System.Drawing.Size(141, 26);
             this.CPUBrandDataLabel.TabIndex = 8;
-            this.CPUBrandDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label23
             // 
@@ -536,81 +535,81 @@
             // 
             this.OpticalDriveDataLabel.Location = new System.Drawing.Point(611, 250);
             this.OpticalDriveDataLabel.Name = "OpticalDriveDataLabel";
+            this.OpticalDriveDataLabel.ReadOnly = true;
             this.OpticalDriveDataLabel.Size = new System.Drawing.Size(138, 26);
             this.OpticalDriveDataLabel.TabIndex = 8;
-            this.OpticalDriveDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // MoustDataLabel
             // 
             this.MoustDataLabel.Location = new System.Drawing.Point(349, 359);
             this.MoustDataLabel.Name = "MoustDataLabel";
+            this.MoustDataLabel.ReadOnly = true;
             this.MoustDataLabel.Size = new System.Drawing.Size(141, 26);
             this.MoustDataLabel.TabIndex = 8;
-            this.MoustDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // ResolutionDataLabel
             // 
             this.ResolutionDataLabel.Location = new System.Drawing.Point(611, 105);
             this.ResolutionDataLabel.Name = "ResolutionDataLabel";
+            this.ResolutionDataLabel.ReadOnly = true;
             this.ResolutionDataLabel.Size = new System.Drawing.Size(138, 26);
             this.ResolutionDataLabel.TabIndex = 8;
-            this.ResolutionDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // GPUTypeDataLabel
             // 
             this.GPUTypeDataLabel.Location = new System.Drawing.Point(349, 250);
             this.GPUTypeDataLabel.Name = "GPUTypeDataLabel";
+            this.GPUTypeDataLabel.ReadOnly = true;
             this.GPUTypeDataLabel.Size = new System.Drawing.Size(141, 26);
             this.GPUTypeDataLabel.TabIndex = 8;
-            this.GPUTypeDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // ScreenSizeDataLabel
             // 
             this.ScreenSizeDataLabel.Location = new System.Drawing.Point(349, 105);
             this.ScreenSizeDataLabel.Name = "ScreenSizeDataLabel";
+            this.ScreenSizeDataLabel.ReadOnly = true;
             this.ScreenSizeDataLabel.Size = new System.Drawing.Size(141, 26);
             this.ScreenSizeDataLabel.TabIndex = 8;
-            this.ScreenSizeDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // HDDSizeDataLabel
             // 
             this.HDDSizeDataLabel.Location = new System.Drawing.Point(611, 213);
             this.HDDSizeDataLabel.Name = "HDDSizeDataLabel";
+            this.HDDSizeDataLabel.ReadOnly = true;
             this.HDDSizeDataLabel.Size = new System.Drawing.Size(138, 26);
             this.HDDSizeDataLabel.TabIndex = 8;
-            this.HDDSizeDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // HeightDataLabel
             // 
             this.HeightDataLabel.Location = new System.Drawing.Point(349, 322);
             this.HeightDataLabel.Name = "HeightDataLabel";
+            this.HeightDataLabel.ReadOnly = true;
             this.HeightDataLabel.Size = new System.Drawing.Size(141, 26);
             this.HeightDataLabel.TabIndex = 8;
-            this.HeightDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // RamSizeDataLabel
             // 
             this.RamSizeDataLabel.Location = new System.Drawing.Point(611, 68);
             this.RamSizeDataLabel.Name = "RamSizeDataLabel";
+            this.RamSizeDataLabel.ReadOnly = true;
             this.RamSizeDataLabel.Size = new System.Drawing.Size(138, 26);
             this.RamSizeDataLabel.TabIndex = 8;
-            this.RamSizeDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // PlatformDataLabel
             // 
             this.PlatformDataLabel.Location = new System.Drawing.Point(349, 213);
             this.PlatformDataLabel.Name = "PlatformDataLabel";
+            this.PlatformDataLabel.ReadOnly = true;
             this.PlatformDataLabel.Size = new System.Drawing.Size(141, 26);
             this.PlatformDataLabel.TabIndex = 8;
-            this.PlatformDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // RamTypeDataLabel
             // 
             this.RamTypeDataLabel.Location = new System.Drawing.Point(349, 68);
             this.RamTypeDataLabel.Name = "RamTypeDataLabel";
+            this.RamTypeDataLabel.ReadOnly = true;
             this.RamTypeDataLabel.Size = new System.Drawing.Size(141, 26);
             this.RamTypeDataLabel.TabIndex = 8;
-            this.RamTypeDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Web
             // 
@@ -636,9 +635,9 @@
             // 
             this.ConditionDataLabel.Location = new System.Drawing.Point(611, 177);
             this.ConditionDataLabel.Name = "ConditionDataLabel";
+            this.ConditionDataLabel.ReadOnly = true;
             this.ConditionDataLabel.Size = new System.Drawing.Size(138, 26);
             this.ConditionDataLabel.TabIndex = 8;
-            this.ConditionDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label5
             // 
@@ -654,49 +653,49 @@
             // 
             this.ManufacturerDataLabel.Location = new System.Drawing.Point(611, 32);
             this.ManufacturerDataLabel.Name = "ManufacturerDataLabel";
+            this.ManufacturerDataLabel.ReadOnly = true;
             this.ManufacturerDataLabel.Size = new System.Drawing.Size(138, 26);
             this.ManufacturerDataLabel.TabIndex = 8;
-            this.ManufacturerDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // CPUNumberDataLabel
             // 
             this.CPUNumberDataLabel.Location = new System.Drawing.Point(349, 177);
             this.CPUNumberDataLabel.Name = "CPUNumberDataLabel";
+            this.CPUNumberDataLabel.ReadOnly = true;
             this.CPUNumberDataLabel.Size = new System.Drawing.Size(141, 26);
             this.CPUNumberDataLabel.TabIndex = 8;
-            this.CPUNumberDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // CostDataLabel
             // 
             this.CostDataLabel.Location = new System.Drawing.Point(349, 32);
             this.CostDataLabel.Name = "CostDataLabel";
+            this.CostDataLabel.ReadOnly = true;
             this.CostDataLabel.Size = new System.Drawing.Size(141, 26);
             this.CostDataLabel.TabIndex = 8;
-            this.CostDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // WebcamDataLabel
             // 
             this.WebcamDataLabel.Location = new System.Drawing.Point(102, 395);
             this.WebcamDataLabel.Name = "WebcamDataLabel";
+            this.WebcamDataLabel.ReadOnly = true;
             this.WebcamDataLabel.Size = new System.Drawing.Size(132, 26);
             this.WebcamDataLabel.TabIndex = 8;
-            this.WebcamDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // AudioTypeDataLabel
             // 
             this.AudioTypeDataLabel.Location = new System.Drawing.Point(102, 286);
             this.AudioTypeDataLabel.Name = "AudioTypeDataLabel";
+            this.AudioTypeDataLabel.ReadOnly = true;
             this.AudioTypeDataLabel.Size = new System.Drawing.Size(132, 26);
             this.AudioTypeDataLabel.TabIndex = 8;
-            this.AudioTypeDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // CpuClassDataLabel
             // 
             this.CpuClassDataLabel.Location = new System.Drawing.Point(102, 141);
             this.CpuClassDataLabel.Name = "CpuClassDataLabel";
+            this.CpuClassDataLabel.ReadOnly = true;
             this.CpuClassDataLabel.Size = new System.Drawing.Size(132, 26);
             this.CpuClassDataLabel.TabIndex = 8;
-            this.CpuClassDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label17
             // 
@@ -752,9 +751,9 @@
             // 
             this.WidthDataLabel.Location = new System.Drawing.Point(102, 322);
             this.WidthDataLabel.Name = "WidthDataLabel";
+            this.WidthDataLabel.ReadOnly = true;
             this.WidthDataLabel.Size = new System.Drawing.Size(132, 26);
             this.WidthDataLabel.TabIndex = 8;
-            this.WidthDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // DisplayTypeLabel
             // 
@@ -770,41 +769,41 @@
             // 
             this.OSDataLabel.Location = new System.Drawing.Point(102, 213);
             this.OSDataLabel.Name = "OSDataLabel";
+            this.OSDataLabel.ReadOnly = true;
             this.OSDataLabel.Size = new System.Drawing.Size(132, 26);
             this.OSDataLabel.TabIndex = 8;
-            this.OSDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // WeightDataLabel
             // 
             this.WeightDataLabel.Location = new System.Drawing.Point(102, 359);
             this.WeightDataLabel.Name = "WeightDataLabel";
+            this.WeightDataLabel.ReadOnly = true;
             this.WeightDataLabel.Size = new System.Drawing.Size(132, 26);
             this.WeightDataLabel.TabIndex = 8;
-            this.WeightDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // ModelDataLabel
             // 
             this.ModelDataLabel.Location = new System.Drawing.Point(102, 68);
             this.ModelDataLabel.Name = "ModelDataLabel";
+            this.ModelDataLabel.ReadOnly = true;
             this.ModelDataLabel.Size = new System.Drawing.Size(132, 26);
             this.ModelDataLabel.TabIndex = 8;
-            this.ModelDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // HDDSpeedDataLabel
             // 
             this.HDDSpeedDataLabel.Location = new System.Drawing.Point(102, 250);
             this.HDDSpeedDataLabel.Name = "HDDSpeedDataLabel";
+            this.HDDSpeedDataLabel.ReadOnly = true;
             this.HDDSpeedDataLabel.Size = new System.Drawing.Size(132, 26);
             this.HDDSpeedDataLabel.TabIndex = 8;
-            this.HDDSpeedDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // DisplayDataLabel
             // 
             this.DisplayDataLabel.Location = new System.Drawing.Point(102, 105);
             this.DisplayDataLabel.Name = "DisplayDataLabel";
+            this.DisplayDataLabel.ReadOnly = true;
             this.DisplayDataLabel.Size = new System.Drawing.Size(132, 26);
             this.DisplayDataLabel.TabIndex = 8;
-            this.DisplayDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // CPUSpeedLabel
             // 
@@ -820,33 +819,33 @@
             // 
             this.CPUSPeedDataLabel.Location = new System.Drawing.Point(102, 177);
             this.CPUSPeedDataLabel.Name = "CPUSPeedDataLabel";
+            this.CPUSPeedDataLabel.ReadOnly = true;
             this.CPUSPeedDataLabel.Size = new System.Drawing.Size(132, 26);
             this.CPUSPeedDataLabel.TabIndex = 8;
-            this.CPUSPeedDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // PriceDataLabel
             // 
             this.PriceDataLabel.Location = new System.Drawing.Point(341, 34);
             this.PriceDataLabel.Name = "PriceDataLabel";
+            this.PriceDataLabel.ReadOnly = true;
             this.PriceDataLabel.Size = new System.Drawing.Size(138, 26);
             this.PriceDataLabel.TabIndex = 8;
-            this.PriceDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // SalesTaxDataLabel
             // 
             this.SalesTaxDataLabel.Location = new System.Drawing.Point(341, 82);
             this.SalesTaxDataLabel.Name = "SalesTaxDataLabel";
+            this.SalesTaxDataLabel.ReadOnly = true;
             this.SalesTaxDataLabel.Size = new System.Drawing.Size(138, 26);
             this.SalesTaxDataLabel.TabIndex = 8;
-            this.SalesTaxDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // TotalDataLabel
             // 
             this.TotalDataLabel.Location = new System.Drawing.Point(341, 155);
             this.TotalDataLabel.Name = "TotalDataLabel";
+            this.TotalDataLabel.ReadOnly = true;
             this.TotalDataLabel.Size = new System.Drawing.Size(138, 26);
             this.TotalDataLabel.TabIndex = 8;
-            this.TotalDataLabel.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label26
             // 
@@ -904,7 +903,6 @@
             this.groupBox2.TabIndex = 12;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Your Price";
-            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // shapeContainer1
             // 
@@ -925,27 +923,27 @@
             this.lineShape1.Y1 = 109;
             this.lineShape1.Y2 = 109;
             // 
-            // backButtonOrderForm
+            // FinishButtonOrderForm
             // 
-            this.backButtonOrderForm.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.backButtonOrderForm.Location = new System.Drawing.Point(74, 467);
-            this.backButtonOrderForm.Name = "backButtonOrderForm";
-            this.backButtonOrderForm.Size = new System.Drawing.Size(75, 31);
-            this.backButtonOrderForm.TabIndex = 7;
-            this.backButtonOrderForm.Text = "Back";
-            this.backButtonOrderForm.UseVisualStyleBackColor = false;
-            this.backButtonOrderForm.Click += new System.EventHandler(this.backButtonOrderForm_Click);
+            this.FinishButtonOrderForm.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.FinishButtonOrderForm.Location = new System.Drawing.Point(1229, 518);
+            this.FinishButtonOrderForm.Name = "FinishButtonOrderForm";
+            this.FinishButtonOrderForm.Size = new System.Drawing.Size(75, 31);
+            this.FinishButtonOrderForm.TabIndex = 7;
+            this.FinishButtonOrderForm.Text = "Finish";
+            this.FinishButtonOrderForm.UseVisualStyleBackColor = false;
+            this.FinishButtonOrderForm.Click += new System.EventHandler(this.FinishButtonOrderForm_Click);
             // 
-            // FinishOrderButton
+            // BackButtonOrderForm
             // 
-            this.FinishOrderButton.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.FinishOrderButton.Location = new System.Drawing.Point(1211, 518);
-            this.FinishOrderButton.Name = "FinishOrderButton";
-            this.FinishOrderButton.Size = new System.Drawing.Size(75, 31);
-            this.FinishOrderButton.TabIndex = 7;
-            this.FinishOrderButton.Text = "Finish";
-            this.FinishOrderButton.UseVisualStyleBackColor = false;
-            this.FinishOrderButton.Click += new System.EventHandler(this.FinishOrderButton_Click);
+            this.BackButtonOrderForm.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.BackButtonOrderForm.Location = new System.Drawing.Point(9, 473);
+            this.BackButtonOrderForm.Name = "BackButtonOrderForm";
+            this.BackButtonOrderForm.Size = new System.Drawing.Size(75, 31);
+            this.BackButtonOrderForm.TabIndex = 7;
+            this.BackButtonOrderForm.Text = "Back";
+            this.BackButtonOrderForm.UseVisualStyleBackColor = false;
+            this.BackButtonOrderForm.Click += new System.EventHandler(this.BackButtonOrderForm_Click_1);
             // 
             // OrderForm
             // 
@@ -957,7 +955,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.FinishOrderButton);
+            this.Controls.Add(this.FinishButtonOrderForm);
             this.Controls.Add(this.CancelButton);
             this.Controls.Add(this.OrderFormMenuStrip);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1064,7 +1062,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer1;
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape1;
-        private System.Windows.Forms.Button backButtonOrderForm;
-        private System.Windows.Forms.Button FinishOrderButton;
+        private System.Windows.Forms.Button FinishButtonOrderForm;
+        private System.Windows.Forms.Button BackButtonOrderForm;
     }
 }

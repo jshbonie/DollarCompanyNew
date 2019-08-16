@@ -6,6 +6,10 @@ namespace DollarCompany.Data
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Spatial;
 
+    /// <summary>
+    /// Student Name: Joshua Bonie
+    /// Student Number: 301009614
+    /// </summary>
     public partial class Product
     {
         public short productID { get; set; }

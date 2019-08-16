@@ -9,7 +9,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+/// <summary>
+/// Student Name: Joshua Bonie
+/// Student Number: 301009614
+/// </summary>
 namespace DollarCompany
 {
     public partial class ProductInfoForm : Form

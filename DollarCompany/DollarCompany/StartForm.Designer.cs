@@ -1,5 +1,9 @@
 ﻿namespace DollarCompany
 {
+    /// <summary>
+    /// Student Name: Joshua Bonie
+    /// Student Number: 301009614
+    /// </summary>
     partial class StartForm
     {
         /// <summary>
@@ -33,6 +37,7 @@
             this.SavedOrderButton = new System.Windows.Forms.Button();
             this.CancelButton = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.ProductOpenFileDialog = new System.Windows.Forms.OpenFileDialog();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
@@ -76,6 +81,10 @@
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
             // 
+            // ProductOpenFileDialog
+            // 
+            this.ProductOpenFileDialog.FileName = "openFileDialog1";
+            // 
             // StartForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -91,7 +100,6 @@
             this.Name = "StartForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "StartForm";
-            this.Load += new System.EventHandler(this.StartForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
@@ -103,5 +111,6 @@
         private System.Windows.Forms.Button SavedOrderButton;
         private System.Windows.Forms.Button CancelButton;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.OpenFileDialog ProductOpenFileDialog;
     }
 }
