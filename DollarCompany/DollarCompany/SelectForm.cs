@@ -67,7 +67,7 @@ namespace DollarCompany
             SelectionLabel.Text = outputString;
 
             Program.product.productID = short.Parse(cells[(int)ComputerField.PRODUCTID].Value.ToString());
-            //Program.product.cost = int.Parse(cells[(int)ComputerField.COST].Value.ToString());
+            Program.product.cost = decimal.Parse(cells[(int)ComputerField.COST].Value.ToString());
             Program.product.manufacturer = cells[(int)ComputerField.MANUFACTURER].Value.ToString();
             Program.product.model = cells[(int)ComputerField.MODEL].Value.ToString();
             Program.product.RAM_type = cells[(int)ComputerField.RAM_TYPE].Value.ToString();
@@ -185,7 +185,7 @@ namespace DollarCompany
                     {
                         // read stuff from the file
                         Program.product.productID = short.Parse(inputStream.ReadLine());
-                        Program.product.cost = int.Parse(inputStream.ReadLine());
+                        Program.product.cost = decimal.Parse(inputStream.ReadLine());
                         Program.product.manufacturer = inputStream.ReadLine();
                         Program.product.model = inputStream.ReadLine();
                         Program.product.RAM_type = inputStream.ReadLine();
@@ -254,7 +254,7 @@ namespace DollarCompany
                     {
                         // read stuff from the file
                         Program.product.productID = short.Parse(inputStream.ReadString());
-                        Program.product.cost = int.Parse(inputStream.ReadString());
+                        Program.product.cost = Decimal.Parse(inputStream.ReadString());
                         Program.product.manufacturer = inputStream.ReadString();
                         Program.product.model = inputStream.ReadString();
                         Program.product.RAM_type = inputStream.ReadString();

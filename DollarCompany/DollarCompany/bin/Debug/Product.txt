@@ -1,0 +1,31 @@
+1
+719.9700
+Asus 
+G71GX-RX05
+DDR2
+6GB
+WXGA+ TFT active matrix
+17.1"
+1440 x 900
+Core Duo
+Intel
+Dual-Core
+2.53GHz
+P8700
+Refurbished
+Windows Vista Home Premium 64-Bit
+Laptop
+500GB
+5400 RPM
+NVIDIA GeForce GTX 260M
+DVD Super Multi Burner
+Integrated Audio
+10/100/1000 Gigabit Ethernet LAN
+802.11b/g/n Wireless Networking
+16.2"
+2.0"
+11.8"
+8.8 lbs
+Touch Pad
+8-Cell Lithium-ion
+1.3MP

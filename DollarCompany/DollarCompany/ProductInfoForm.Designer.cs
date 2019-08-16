@@ -489,7 +489,6 @@
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "&File";
-            this.fileToolStripMenuItem.Click += new System.EventHandler(this.fileToolStripMenuItem_Click);
             // 
             // toolStripSeparator
             // 
@@ -766,7 +765,6 @@
             this.PowerDataLabel.Size = new System.Drawing.Size(215, 21);
             this.PowerDataLabel.TabIndex = 67;
             this.PowerDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.PowerDataLabel.Click += new System.EventHandler(this.label6_Click);
             // 
             // label8
             // 
@@ -777,7 +775,6 @@
             this.label8.TabIndex = 68;
             this.label8.Text = "Power";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // DepthDataLabel
             // 
@@ -789,7 +786,6 @@
             this.DepthDataLabel.Size = new System.Drawing.Size(215, 21);
             this.DepthDataLabel.TabIndex = 65;
             this.DepthDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.DepthDataLabel.Click += new System.EventHandler(this.label35_Click);
             // 
             // label36
             // 
@@ -800,7 +796,6 @@
             this.label36.TabIndex = 66;
             this.label36.Text = "Depth";
             this.label36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label36.Click += new System.EventHandler(this.label36_Click);
             // 
             // MoustDataLabel
             // 
@@ -812,7 +807,6 @@
             this.MoustDataLabel.Size = new System.Drawing.Size(215, 21);
             this.MoustDataLabel.TabIndex = 63;
             this.MoustDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.MoustDataLabel.Click += new System.EventHandler(this.label37_Click);
             // 
             // label38
             // 
@@ -823,7 +817,6 @@
             this.label38.TabIndex = 64;
             this.label38.Text = "Moust Type";
             this.label38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label38.Click += new System.EventHandler(this.label38_Click);
             // 
             // HeightDataLabel
             // 
@@ -835,7 +828,6 @@
             this.HeightDataLabel.Size = new System.Drawing.Size(215, 21);
             this.HeightDataLabel.TabIndex = 61;
             this.HeightDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.HeightDataLabel.Click += new System.EventHandler(this.label39_Click);
             // 
             // label40
             // 
@@ -846,7 +838,6 @@
             this.label40.TabIndex = 62;
             this.label40.Text = "Height";
             this.label40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label40.Click += new System.EventHandler(this.label40_Click);
             // 
             // WeightDataLabel
             // 
@@ -858,7 +849,6 @@
             this.WeightDataLabel.Size = new System.Drawing.Size(215, 21);
             this.WeightDataLabel.TabIndex = 59;
             this.WeightDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.WeightDataLabel.Click += new System.EventHandler(this.label41_Click);
             // 
             // label42
             // 
@@ -869,7 +859,6 @@
             this.label42.TabIndex = 60;
             this.label42.Text = "Weight";
             this.label42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label42.Click += new System.EventHandler(this.label42_Click);
             // 
             // WidthDataLabel
             // 
@@ -881,7 +870,6 @@
             this.WidthDataLabel.Size = new System.Drawing.Size(215, 21);
             this.WidthDataLabel.TabIndex = 57;
             this.WidthDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.WidthDataLabel.Click += new System.EventHandler(this.label43_Click);
             // 
             // label44
             // 
@@ -892,7 +880,6 @@
             this.label44.TabIndex = 58;
             this.label44.Text = "Width";
             this.label44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label44.Click += new System.EventHandler(this.label44_Click);
             // 
             // RamSizeDataLabel
             // 
@@ -904,7 +891,6 @@
             this.RamSizeDataLabel.Size = new System.Drawing.Size(215, 21);
             this.RamSizeDataLabel.TabIndex = 12;
             this.RamSizeDataLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.RamSizeDataLabel.Click += new System.EventHandler(this.RamSizeDataLabel_Click);
             // 
             // ProductInfoForm
             // 

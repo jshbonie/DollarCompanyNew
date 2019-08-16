@@ -112,6 +112,8 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
             this.lineShape1 = new Microsoft.VisualBasic.PowerPacks.LineShape();
+            this.backButtonOrderForm = new System.Windows.Forms.Button();
+            this.FinishOrderButton = new System.Windows.Forms.Button();
             this.OrderFormMenuStrip.SuspendLayout();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -202,7 +204,7 @@
             // CancelButton
             // 
             this.CancelButton.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.CancelButton.Location = new System.Drawing.Point(1080, 518);
+            this.CancelButton.Location = new System.Drawing.Point(1100, 518);
             this.CancelButton.Name = "CancelButton";
             this.CancelButton.Size = new System.Drawing.Size(75, 31);
             this.CancelButton.TabIndex = 7;
@@ -233,6 +235,7 @@
             this.groupBox1.Controls.Add(this.label21);
             this.groupBox1.Controls.Add(this.label31);
             this.groupBox1.Controls.Add(this.LANLabel);
+            this.groupBox1.Controls.Add(this.backButtonOrderForm);
             this.groupBox1.Controls.Add(this.label30);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.label20);
@@ -922,6 +925,28 @@
             this.lineShape1.Y1 = 109;
             this.lineShape1.Y2 = 109;
             // 
+            // backButtonOrderForm
+            // 
+            this.backButtonOrderForm.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.backButtonOrderForm.Location = new System.Drawing.Point(74, 467);
+            this.backButtonOrderForm.Name = "backButtonOrderForm";
+            this.backButtonOrderForm.Size = new System.Drawing.Size(75, 31);
+            this.backButtonOrderForm.TabIndex = 7;
+            this.backButtonOrderForm.Text = "Back";
+            this.backButtonOrderForm.UseVisualStyleBackColor = false;
+            this.backButtonOrderForm.Click += new System.EventHandler(this.backButtonOrderForm_Click);
+            // 
+            // FinishOrderButton
+            // 
+            this.FinishOrderButton.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.FinishOrderButton.Location = new System.Drawing.Point(1211, 518);
+            this.FinishOrderButton.Name = "FinishOrderButton";
+            this.FinishOrderButton.Size = new System.Drawing.Size(75, 31);
+            this.FinishOrderButton.TabIndex = 7;
+            this.FinishOrderButton.Text = "Finish";
+            this.FinishOrderButton.UseVisualStyleBackColor = false;
+            this.FinishOrderButton.Click += new System.EventHandler(this.FinishOrderButton_Click);
+            // 
             // OrderForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -932,6 +957,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.FinishOrderButton);
             this.Controls.Add(this.CancelButton);
             this.Controls.Add(this.OrderFormMenuStrip);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1038,5 +1064,7 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer1;
         private Microsoft.VisualBasic.PowerPacks.LineShape lineShape1;
+        private System.Windows.Forms.Button backButtonOrderForm;
+        private System.Windows.Forms.Button FinishOrderButton;
     }
 }

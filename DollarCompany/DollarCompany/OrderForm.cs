@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Printing;
 using System.Linq;
@@ -13,7 +14,10 @@ namespace DollarCompany
 {
     public partial class OrderForm : Form
     {
-        public OrderForm()
+        public double tax;
+        public double total;
+        public double cost;
+            public OrderForm()
         {
             InitializeComponent();
         }
@@ -51,9 +55,19 @@ namespace DollarCompany
 
         private void OrderForm_Activated(object sender, EventArgs e)
         {
+            //Calculations for tax and total 
+            tax = Math.Round((double)Program.product.cost, 2);
+            tax = Math.Round(tax * 0.13, 2);
+            cost = Math.Round((double)Program.product.cost, 2);
+            total = Math.Round(tax + cost, 2);
+            //
+
             ProductIDDataLabel.Text = Program.product.productID.ToString();
             ConditionDataLabel.Text = Program.product.condition;
-            CostDataLabel.Text = Program.product.cost.ToString();
+            TotalDataLabel.Text = total.ToString();
+            PriceDataLabel.Text = cost.ToString();
+            CostDataLabel.Text = cost.ToString();
+            SalesTaxDataLabel.Text = tax.ToString();
             PlatformDataLabel.Text = Program.product.platform;
             OSDataLabel.Text = Program.product.OS;
             ManufacturerDataLabel.Text = Program.product.manufacturer;
@@ -84,6 +98,18 @@ namespace DollarCompany
             MoustDataLabel.Text = Program.product.moust_type;
             WebcamDataLabel.Text = Program.product.webcam;
             condDataLabel.Text = Program.product.condition;
+        }
+
+        private void backButtonOrderForm_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Program.productInfoForm.Show();
+        }
+
+        private void FinishOrderButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Thank you very much for your purchase! " + "\n\nYour order will arrive in 7-10 business days. ", " Order Complete", MessageBoxButtons.OK);
+            Application.Exit();
         }
     }
 }

@@ -14,6 +14,7 @@ namespace DollarCompany
 {
     public partial class ProductInfoForm : Form
     {
+        public double cost;
         public ProductInfoForm()
         {
             InitializeComponent();
@@ -21,8 +22,8 @@ namespace DollarCompany
 
         private void ProductInfoFormBackButton_Click(object sender, EventArgs e)
         {
-            Program.selectForm.Show();
             this.Hide();
+            Program.selectForm.Show();
         }
 
         private void ProductInfoForm_Load(object sender, EventArgs e)
@@ -32,10 +33,9 @@ namespace DollarCompany
 
         private void ProductInfoForm_Activated(object sender, EventArgs e)
         {
-                
-                    
+                cost = Math.Round((double)Program.product.cost, 2);
                 productIdDataLabel.Text = Program.product.productID.ToString();
-                costDataLabel.Text = Program.product.cost.ToString();
+                costDataLabel.Text = cost.ToString();
                 ManufacturerDataLabel.Text = Program.product.manufacturer;
                 ModelDataLabel.Text = Program.product.model;
                 RamTypeDataLAbel.Text = Program.product.RAM_type;
@@ -73,81 +73,12 @@ namespace DollarCompany
         {
             Application.Exit(); 
         }
-
-        private void label44_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label8_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label35_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label36_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label37_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label38_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label39_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label40_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label41_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label42_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label43_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        
         private void productInfoNextButton_Click(object sender, EventArgs e)
         {
             this.Hide();
             Program.orderForm.Show();
         }
 
-        private void fileToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void RamSizeDataLabel_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
